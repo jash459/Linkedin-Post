@@ -1,0 +1,147 @@
+Streamline Your React Development with Docker Hot Reloading! 🎯   
+
+
+
+Tired of constant restarts during React development? Docker can be your hero! 💪
+
+This post unveils the secrets to enabling hot reloading in your React projects within Docker containers. 📦
+
+
+
+1️⃣  Create a React App (they see me rollin', they hatin') 🎶
+
+→ Use npx create-react-app to set up a basic React application. Let's call it reactapp. 💻
+
+#docker #hotreloading
+
+
+
+2️⃣  Craft Your Dockerfile (the blueprint for your container) 📝
+
+● Dockerfile
+
+
+
+# Base image: Node.js
+
+→ FROM node:14.21.1-alpine 
+
+
+
+# Working directory
+
+→ WORKDIR /app
+
+
+
+# Environment variables
+
+→ ENV PATH /app/node_modules/.bin:$PATH
+
+
+
+# Copy essential files
+
+→ COPY package.json ./
+
+→ COPY package-lock.json ./
+
+
+
+# Install dependencies silently
+
+→ RUN npm install --silent
+
+→ RUN npm install react-scripts@5.0.1 -g --silent
+
+
+
+# Hot reloading with nodemon
+
+→ RUN npm install nodemon --save-dev
+
+→ COPY . ./
+
+
+
+# Start with nodemon
+
+→ CMD ["nodemon", "--exec", "npm", "start"] ✨
+
+#reactjs  #dockerfile
+
+
+
+3️⃣  Don't Forget the .dockerignore File (keep things tidy) 🧹
+
+→ node_modules
+
+→ build
+
+→ .dockerignore
+
+→ Dockerfile
+
+→ Dockerfile.prod
+
+#dockerfile #docker
+
+
+
+4️⃣ Build Your Docker Image (let's get this ship sailing!) 🚢
+
+→ docker build -t react_img .
+
+#docker #dockerimage
+
+
+
+5️⃣  Create a Container (time to set sail!) 🐳
+
+→ Bash
+
+→ docker run -it --name react_container_app -p 3000:3000 react_img
+
+#docker #dockercontainers 
+
+
+
+●  Hot Reloading Magic! ✨
+
+→ There are two ways to experience the hot reloading goodness:
+
+
+
+1️⃣  Inside the Container 
+
+→ Jump in using docker exec -it react_container_app sh. 
+
+→ Navigate to cd src/ and edit App.js. 
+
+→ Save the changes. Boom! The web app reflects the modifications instantly. 🎉
+
+
+
+2️⃣  Outside the Container (volume mounting for the win!) 🥇
+
+→ Create a new container with volume mounting:
+
+➡ docker run -it --name new_react_container --volume ./reactapp/:/app/ -p 3000:3000 react_img 
+
+→ Modify the code in your host directory (/reactapp/src). 
+
+→ Witness the magic! The web app updates automatically. 💫
+
+#docker #reactjs #hotreloading #efficiency #timesaving
+
+
+
+Now you can develop React applications in Docker containers with the power of hot reloading! ⚡️
+
+
+
+P.S. This approach streamlines your development workflow and saves precious time. ⏳
+
+
+
+#docker #reactjs #hotreloading #development #efficiency #reactjs  #dockerfile #docker #dockerimage #dockercontainers

@@ -1,16 +1,16 @@
 
 
-1. "Boost Docker Builds: Optimize for speed with cache efficiency and layer management. Share your challenges for community support!  https://www.linkedin.com/posts/jashhinger_efficient-layer-caching-activity-7170274299646361600-3MPP?utm_source=share&utm_medium=member_desktop
+1. Safeguard Your Containers: Navigate container security with key considerations – isolation, security patterns, access controls, and vulnerability management. Ensure a secure voyage for your applications! https://www.linkedin.com/posts/jashhinger_containerisolation-namespacesecurity-resourcemanagement-activity-7172810837814898688-JTh1?utm_source=share&utm_medium=member_desktop
 
-2. "Master Microservices with Service Discovery: Learn its importance, working, and implementation options for seamless communication. https://www.linkedin.com/posts/jashhinger_service-discovery-in-microservices-activity-7170379989106782209-y7SI?utm_source=share&utm_medium=member_desktop
+2. Decoding Cache Secrets: Explore cache types, write policies, and allocation decisions for optimal performance. Understand tradeoffs and choose strategies based on your specific needs and access patterns! https://www.linkedin.com/posts/jashhinger_cache-write-policy-activity-7172916701129293824-CHk4?utm_source=share&utm_medium=member_desktop
 
-3. "Optimize Containers: Shrink footprint with lightweight base images, secure with regular updates, and scan for vulnerabilities. https://www.linkedin.com/posts/jashhinger_smallerimages-fasterbuilds-networkstrainreduced-activity-7170640692313026561-0T35?utm_source=share&utm_medium=member_desktop
+3. Docker CLI Mastery: Explore the power of Docker Command Line Interface for seamless container management. Craft, run, and optimize containers effortlessly with essential commands. https://www.linkedin.com/posts/jashhinger_docker-containers-cli-activity-7173173368517595137-ohnF?utm_source=share&utm_medium=member_android
 
-4. "Decoding Cascading Failures: Understand the risks in distributed systems as localized issues spiral into system collapse. https://www.linkedin.com/posts/jashhinger_cascading-failures-activity-7170747969619660802-jzfk?utm_source=share&utm_medium=member_desktop
+4. Boost Website Speed: Navigate cache policies like LRU, FIFO, MRU, LFU, and LIFO. Watch cache size, invalidation, consistency, and warm-up for optimal performance! https://www.linkedin.com/posts/jashhinger_cachepolicies-developertools-developerlife-activity-7173279071940788226-O4lM?utm_source=share&utm_medium=member_android
 
-5. "Unlock Container Management: Dive into container registries with Docker Hub, Amazon ECR, GitHub, and specialized options like Harbor and Red Hat Quay.https://www.linkedin.com/posts/jashhinger_containermanagement-registrymanagement-ociformat-activity-7170999067970256896-BCpv?utm_source=share&utm_medium=member_desktop
+5. Unlock React Development Efficiency: Harness Docker hot reloading for seamless React project iteration. Build, run, and experience instant updates inside or outside containers. https://www.linkedin.com/posts/jashhinger_docker-hotreloading-reactjs-activity-7173535751744307200-FZgb?utm_source=share&utm_medium=member_android
 
-6. Master Anomaly Detection: Essential insights on what it is, how it works, and why it's crucial for distributed application monitoring. https://www.linkedin.com/posts/jashhinger_anomalydetection-distributedapplications-activity-7171112282188308481-GMhw?utm_source=share&utm_medium=member_desktop
+6. Monolith vs Microservices: Choose between a castle (monolithic) or a city (microservices). Each has perks and pitfalls, so pick wisely! https://www.linkedin.com/posts/jashhinger_monolithic-vs-microservice-architecture-activity-7173641468220325888-JrC_?utm_source=share&utm_medium=member_android
 
 7. Secure Large-Scale Systems: Master rate limiting to thwart DoS attacks, control costs, and protect APIs. Explore popular algorithms like Leaky Bucket and Token Bucket. https://www.linkedin.com/posts/jashhinger_dosprotection-costcontrol-apiprotection-activity-7171361436491735041-KdPi?utm_source=share&utm_medium=member_desktop
 
