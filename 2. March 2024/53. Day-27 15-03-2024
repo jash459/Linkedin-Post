@@ -1,0 +1,49 @@
+Ever felt lost in a sea of containers? These Docker debugging tricks will be your lifelines. 🚢🎯 
+
+Effective Docker Debugging Techniques: Understanding and Troubleshooting Container Challenges. 🔎
+
+🛠️  Prerequisites:
+
+1️⃣  Basic knowledge of Docker is required, as well as an understanding of command-line usage. 💻 
+#dockerbasics #commandline #prerequisites #docker #debugging #containers
+
+
+🌄  Docker Debugging Landscape:
+
+1️⃣  Understanding challenges of debugging containers such as their ephemeral nature, isolated environments, and limited visibility. 💨 
+2️⃣  Ephemeral Nature of Containers: Containers are short-lived and disposable, making it challenging to capture and analyze their state at any point in time. ⏳
+3️⃣  Isolated Environments: Containers are isolated from the host system and other containers, posing challenges for debugging. 🔒
+4️⃣  Limited Visibility: Limited visibility into individual containers makes it challenging to observe internal states, logs, and network interactions. 👀 
+#dockerchallenges #containerization #visibility 
+
+
+🕵️‍♂️  Exploring Essential Docker Debugging Commands:
+
+1️⃣  The article covers essential commands for inspecting container status and logs, accessing the container shell, examining resource usage and performance, and debugging network connectivity. 🧰 
+2️⃣  Inspecting Container Status and Logs: Using Docker commands 'docker ps', 'docker logs', and 'docker inspect' to gain insight into container status, logs, and detailed information. 📋
+3️⃣  Accessing Container Shell: The 'docker exec' command allows access to a container's shell for executing commands directly or starting an interactive shell. ⌨️ 
+#dockershell #containeraccess #troubleshooting
+
+
+📊  Examining Resource Usage and Performance:
+
+1️⃣  Docker stats provides a continuously updating table showing the resource consumption of each container including CPU and memory utilization 📊
+2️⃣  Docker top command lets you view all the processes inside a container including the running processes' details 🔍 
+#dockerstats #dockertop #resourcemonitoring
+
+
+🔗  Debugging Network Connectivity:
+
+1️⃣  Use docker network inspect to analyze Docker networks and their configuration 🌐
+2️⃣  Utilize docker exec with ping or nc utility to verify network connectivity between containers and external hosts 📶 
+#dockernetwork #connectivity #troubleshooting
+
+
+🛠️  Resolving Network Connectivity Issues:
+
+1️⃣  Inspect the Docker network associated with the containers and ensure the front and backend containers are connected to the same network 🔗
+2️⃣  Check host and port availability using docker exec and nc command to verify the connection between the frontend web server and the backend database container 💪 #networkissues #docker #connectivityfix
+
+P.S. Remember, sometimes the simplest thing – like using docker logs – can reveal the root of your container's problems. 😉 
+
+#dockerlogs #debuggingtips #simplicity #docker #debugging #containers

@@ -1,0 +1,36 @@
+Manual testing got you down? Let's automate with Docker and Selenium 🤖💨 
+
+→ Feeling the drag of manual testing? Wish you could streamline your workflow and free up valuable time? 
+
+→ Docker and Selenium are here to be your automation superheroes! This epic duo makes setting up and running automated tests faster than ever before.💥
+
+🎯 Here's your ultimate guide to getting started:
+
+Understanding the dynamic duo ✨
+
+1️⃣ Docker: a platform as a service (PaaS), utilizes OS-level virtualization to create, deploy, and run applications using lightweight containers. Imagine pre-configured environments ready to launch at your command! 📦
+2️⃣ Docker images vs. docker containers: think of images as blueprints containing everything your application needs to run. Containers are the actual running instances ‍♂️ brought to life from these blueprints. Simple, right? 
+hashtag#docker hashtag#containers hashtag#automation 
+
+Gearing up for docker 🔧
+
+1️⃣ Head over to Docker Docs and check their hardware prerequisites to ensure your system is compatible!. 💻
+2️⃣ Download and install Docker following the clear instructions provided on their website. Easy as 1, 2, 3! 
+hashtag#dockerinstallation hashtag#gettingstarted 
+
+Welcome to Docker Hub! 🌐
+
+1️⃣ Docker Hub serves as your one-stop shop for finding and sharing container images (think a massive app store for developers!). It offers a plethora of features like repositories, teams, organizations, official images, and even webhooks! 
+hashtag#dockerhub hashtag#sharingiscaring ✨
+
+Building your testing powerhouse 💪
+
+1️⃣ Get the required Selenium images. You can find these on Docker Hub.😊
+2️⃣ Download the image to your machine using the docker pull command. For instance, to pull the Selenium standalone Chrome image, you can use the following command: docker pull selenium/standalone-chrome.💻
+3️⃣ Deploy the image to a container using the docker run command. This will start a new container in the background on your machine.✨
+4️⃣ Stop the container using the docker stop command, specifying the container ID.🛑
+hashtag#selenium hashtag#automatedtesting 🎉
+
+P.S. Stay tuned for upcoming posts where we'll delve deeper into leveraging this powerful combo for writing and executing automated tests! 😉
+
+hashtag#testingsmart hashtag#automationgoals hashtag#dockersolutions hashtag#seleniumpower hashtag#qacommunity
