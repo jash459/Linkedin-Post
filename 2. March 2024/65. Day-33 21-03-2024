@@ -1,0 +1,50 @@
+Ready to master the art of workload orchestration? Unlock the power of Nomad! 🌟
+
+💡 What is Nomad?
+
+→ Nomad is a flexible scheduler and workload orchestrator for deploying and managing applications across on-premise and cloud infrastructure at scale. Some of its main features include:  
+1️⃣  Efficient resource usage 🚀  
+2️⃣  Self-healing 🔧  
+3️⃣  Zero downtime deployments ⏰  
+4️⃣  Different workload types 💼  
+5️⃣  Cross-platform support 🌐  
+6️⃣  Single unified and declarative workflow 🔄
+  
+ #cloudcomputing #devops #deployment
+
+🎯Important Terms :
+
+→  Nomad Setup
+1️⃣  Agent: It is a Nomad process running in server or client mode. 🕵️  
+2️⃣  Client: Responsible for running the tasks assigned to it and registers itself with the servers. 🏃  
+3️⃣  Server: Manages all jobs and clients, monitors tasks, and controls task placement on client nodes. 💻  
+4️⃣  Dev Agent: Provides useful defaults for running a single node cluster of Nomad. 🛠️ 
+ 
+ #scheduler #infrastructure #management
+
+🛠️  Nomad Operation:
+
+1️⃣  Task: The smallest unit of work in Nomad, executed by task drivers like Docker or exec. 📦  
+2️⃣  Group: A series of tasks that run on the same Nomad client. 🚶  
+3️⃣  Job: Defines the application and its configurations, containing one or many tasks. 📋  
+4️⃣  Job Specification: Defines the schema for Nomad jobs, including the tasks and resources necessary for the job to run. 📄  
+5️⃣  Allocation: A mapping between a task group in a job and a client node. 🗺️ 
+ 
+#workloadorchestration #taskmanagement #jobmanagement
+
+🔄 Application Workflow :
+
+→  Involves several steps beyond Nomad, beginning with the creation of a workload artifact and continues with:  
+1️⃣  Creating the job specification 📝  
+2️⃣  Deploying the job 🚀  
+3️⃣  Updating and redeploying the job 🔄
+  
+ #workflowmanagement #deploymentprocess #applicationmanagement
+
+→  These processes come together in a typical Nomad application workflow, allowing seamless deployment and management of various types of workloads across different platforms.
+
+Ready to level up your deployment game?  Explore Nomad today!  👉
+
+P.S.  Nomad = headache-free workload management 😉
+
+#Nomad #WorkOrchestration #DevOps
