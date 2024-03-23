@@ -1,0 +1,50 @@
+Think your online accounts are safe just because you have a strong password? OAuth takes security to the next level. 💪
+
+✪ What Is OAuth?
+1️⃣ OAuth is an open-standard authorization protocol that can be added to applications to offer users secure designated access to their platform.🔒
+2️⃣ For instance, with this protocol, you can tell Facebook to allow ESPN.com access to your social media posts and updates without necessarily releasing your login credentials.🔑
+3️⃣ This sort of access helps to reduce risk in a big way. If ESPN.com suffers a data breach, the information you have with Facebook will be protected.🛡️
+hashtag#authentication hashtag#security
+
+✪ OAuth Examples
+1️⃣ A common example of this protocol is related to most android devices. When you purchase an android smartphone, it requires you to log in to your email account to access most of the features on that phone.📱
+2️⃣ When you have logged in your email into the phone, you will need the information to access other applications or login websites.📧
+3️⃣ The principles of OAuth allow users to share their email login credentials with the platform instantly.🗝️
+hashtag#mobile hashtag#authentication
+
+✪ OAuth History
+1️⃣ OAuth isn’t the work of a single person. Many big tech giants like Google, Twitter, and many more joined hands to formulate this globally recognized authorization standard.🌐
+2️⃣ It was first offered to the public in 2010 as RFC 5849. Soon after its launch, it became highly famous in the API community.🚀
+3️⃣ With time and evolving requirements, the community demanded updates in it. Hence, multiple versions came into being. RFC 6749 or OAuth 2.0 was the second version of OAuth and came into being in 2012.🔄
+hashtag#techhistory hashtag#api
+
+✪ OAuth Components
+→ OAuth Tokens
+1️⃣ Just like the conventional bank tokens that were used to allow customers to be a part of the queue and fetch money from their accounts.💳
+2️⃣ Type #1: Access Tokens
+3️⃣ Type #2: Refer Tokens
+
+→ OAuth Scopes
+1️⃣ This array of data is shared with the app/user when it seeks permission. The app must go through authorization before receiving it.🔍
+2️⃣ Scopes exist in a bunch and represent the client-generated permission for requests.📋
+hashtag#tokens hashtag#authorization
+
+→ OAuth Actors
+1️⃣ The resource-owner can be an end-user, company, or enterprise.👤
+2️⃣ The resource-server is the API that holds the data that the respective website/application wants to obtain.📡
+3️⃣ The client is the app trying to access your login or other data so that it can allow you to enter its system.📱
+hashtag#roles hashtag#apiinteraction
+
+→ OAuth Flows
+1️⃣ Implicit flow
+2️⃣ Authorization Code Flow
+3️⃣ Client Credential Flow
+4️⃣ Resource-Owner Password Flow
+5️⃣ Assertion Flow
+6️⃣ Device Flow
+hashtag#authorizationflows hashtag#oauthprotocols
+
+Want to build more secure apps or understand how your favorite services connect? Learn the ins and outs of OAuth! 🧠
+
+Rahul Maheshwari
+PS: OAuth isn't just about convenience; it's about seriously upping your security game. 👍 
