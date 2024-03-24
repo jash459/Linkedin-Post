@@ -1,0 +1,66 @@
+Tired of feeling lost in the sea of Kubernetes? 🌊 Ready to become a container orchestration pro?
+
+✪ Your journey starts here:
+
+1. Kubernetes Concepts 
+♦ The Concepts section helps you learn about the parts of the Kubernetes system and the abstractions Kubernetes uses to represent your cluster, and helps you obtain a deeper understanding of how Kubernetes works. 📘
+hashtag#kubernetes
+
+2. Overview 
+♦ Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available. 🌐
+hashtag#containerization
+
+3 Cluster Architecture 
+♦ The architectural concepts behind Kubernetes. 🏗️
+hashtag#kubernetesarchitecture
+
+4 Containers 
+♦ Technology for packaging an application along with its runtime dependencies. 🚀
+ hashtag#containers
+
+5 Workloads 
+♦ Understand Pods, the smallest deployable compute object in Kubernetes, and the higher-level abstractions that help you to run them. 🛠️
+hashtag#kubernetesworkloads
+
+6 Services, Load Balancing, and Networking 
+♦ Concepts and resources behind networking in Kubernetes. 🌐
+hashtag#loadbalancing
+
+7 Storage 
+♦ Ways to provide both long-term and temporary storage to Pods in your cluster. 🗄️
+hashtag#cloud
+
+8 Configuration 
+♦ Resources that Kubernetes provides for configuring Pods. ⚙️
+ hashtag#YAML
+
+9 Security 
+♦ Concepts for keeping your cloud-native workload secure. 🔒
+hashtag#InfoSec
+
+10 Policies 
+♦ Manage security and best practices with policies. 📋
+hashtag#KubernetesPolicies
+
+11 Scheduling, Preemption, and Eviction 
+♦ In Kubernetes, scheduling refers to making sure that Pods are matched to Nodes so that the kubelet can run them. Preemption is the process of terminating Pods with lower Priority so that Pods with higher Priority can schedule on Nodes. Eviction is the process of proactively terminating one or more Pods on resource-starved Nodes. 📆
+ hashtag#schedulingeviction
+
+12 Cluster Administration 
+♦ Lower-level detail relevant to creating or administering a Kubernetes cluster. 🛠️
+hashtag#clusteradmin
+
+13 Windows in Kubernetes 
+♦ Kubernetes supports nodes that run Microsoft Windows. 🪟
+hashtag#windowskubernetes
+
+14 Extending Kubernetes 
+♦ Different ways to change the behavior of your Kubernetes cluster. 🧩
+hashtag#extendingkubernetes
+
+CTA: Ready to conquer Kubernetes? Start your journey with the official documentation – your questions are waiting to be answered! 📚
+
+PS: Don't let Kubernetes be a mystery. Let's learn together! 💪
+
+Rahul Maheshwari
+hashtag#Kubernetes hashtag#CloudNative hashtag#DevOps hashtag#CloudComputing hashtag#SoftwareEngineering
