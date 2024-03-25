@@ -1,0 +1,54 @@
+Ever wondered how you can log into Spotify using your Facebook account...without giving Spotify your Facebook password? 🤔
+
+It's the magic of OAuth! Let's break down how it works:
+
+✪ How Does OAuth Work? 
+1️⃣ OAuth focuses on authorization, not authentication. 🔒 
+2️⃣ OAuth authorizes access to apps and resources, not authenticates users. 🔑 
+3️⃣ OAuth uses a valet key analogy: it grants access but not to all information. 🚗 
+4️⃣ Three main parties: user, sender, receiver. 👥 
+5️⃣ Steps: Intent shown, Receiver gets permission, User redirected, User gives permission, Receiver obtains access token, Receiver accesses resource. 🔄 
+hashtag#OAuth
+
+
+✪ SAML vs. OAuth 
+1️⃣ SAML: authentication standard for single sign-on. 🔐 
+2️⃣ OAuth: authorization standard for mobile experience. 📱 
+3️⃣ Key difference: SAML uses XML, OAuth uses JSON. 🔄 
+4️⃣ OAuth relies on API, used by mobile apps, websites, game consoles, IoT. 🌐 
+hashtag#SAMLvsOAuth
+
+
+✪ OpenID vs. OAuth 
+1️⃣ OpenID: authentication. 🔓 
+2️⃣ OAuth: authorization, avoids inputting credentials on third-party apps. 🔄 
+3️⃣ Both can be used for similar tasks but serve different purposes. 🔄 
+hashtag#OpenIDvsOAuth
+
+
+✪ OAuth 1.0 vs. OAuth 2.0 
+1️⃣ OAuth 2.0 is a complete improvement on OAuth 1.0. 🔃 
+2️⃣ OAuth 2.0 is easier and faster to implement. 🚀 
+3️⃣ OAuth 1.0 has deprecated, use OAuth 2.0 for new apps. ⚠️ 
+hashtag#OAuth2
+
+
+✪ Is OAuth Safe?
+1️⃣ OAuth is secure with TLS encryption, but implementation quality is crucial. 🔒 
+2️⃣ OAuth demands TLS encryption enforcement during authentication to avoid phishing attacks. ⚠️ 
+hashtag#OAuthSecurity
+
+
+✪ How OAuth Protects APIs 
+1️⃣ OAuth makes third-party websites and apps accessible without logging user credentials. 🌐 
+2️⃣ Methods to protect APIs: OAuth Provider API, OAuth security definition, OAuth Metadata URL, Authentication URL. 🛡️ 
+3️⃣ OAuth produces various responses to requests during the process. 🔄 
+4️⃣ Troubleshooting OAuth: Use Developer Portal, forums on Youtube, Github, DeveloperWorks. 🛠️ 
+hashtag#APIProtection
+
+
+Want to build apps that use OAuth? Let's talk! 🤝
+
+OAuth is how we keep our data safe while still enjoying a connected world. 😉
+
+hashtag#datasecurity hashtag#APIs hashtag#developer
