@@ -1,0 +1,45 @@
+Ever wondered how firewalls actually keep the bad stuff out of your network? 🤔 It's all about having the ultimate power over what gets in...
+
+Understanding ACLs: Rules, Processing, and Advantages
+
+✪ Access-Lists (ACL):
+1️⃣  ACLs are used for controlling network traffic and reducing network attacks. 🔒
+2️⃣  ACLs filter traffic based on defined rules for incoming or outgoing network. 📝
+#Security
+
+✪ ACL Features:
+1️⃣  Rules are matched serially and once matched, no further comparison takes place. ⚖️
+2️⃣  There is an implicit denial at the end if no rule matches. ❌
+#ProcessingofACL
+
+✪ Applying ACL:
+1️⃣  Inbound access lists process packets according to the access list rules before routing. 🔄
+2️⃣  Outbound access lists route packets first and then process them at the outbound interface. 🚦
+#Application
+
+✪ Types of ACL:
+1️⃣  Standard ACLs use source IP address only and permit/deny entire protocol suite. 🔄
+2️⃣  Extended ACLs use source/destination IP and port and allow specifying which IP traffic should be allowed or denied. 🔐
+#TypesofACl
+
+✪ Rules for ACL:
+
+1️⃣  The standard Access-list is generally applied close to the destination (but not always). 🎯
+2️⃣  The extended Access-list is generally applied close to the source (but not always). 🧭
+3️⃣  We can assign only one ACL per interface per protocol per direction, i.e., only one inbound and outbound ACL is permitted per interface. 🛑
+4️⃣  We can’t remove a rule from an Access-list if we are using numbered Access-list. If we try to remove a rule then the whole ACL will be removed. If we are using named access lists then we can delete a specific rule. 🔢
+5️⃣  Every new rule which is added to the access list will be placed at the bottom of the access list therefore before implementing the access lists, analyses the whole scenario carefully. 📋
+6️⃣  As there is an implicit deny at the end of every access list, we should have at least a permit statement in our Access-list otherwise all traffic will be denied. 🚫
+7️⃣  Standard access lists and extended access lists cannot have the same name. 🚷
+#Rulesofacl
+
+✪ Advantages of ACL:
+
+1️⃣  Improve network performance. 🚀
+2️⃣  Provides security as the administrator can configure the access list according to the needs and deny the unwanted packets from entering the network. 🔒
+3️⃣  Provides control over the traffic as it can permit or deny according to the need of the network. 🚦
+#Advantagesofacl
+
+Ready to level up your network control?  Take a deeper dive into ACLs! 📚
+
+P.S.  ACLs + firewalls = a seriously secure network combo. 😉

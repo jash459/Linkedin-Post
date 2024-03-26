@@ -4,13 +4,13 @@
 
 2. Boost Security with OAuth: Safeguard access without sharing credentials. Explore its history, components, and authentication flows for robust protection https://www.linkedin.com/posts/jashhinger_oauth-samlvsoauth-openidvsoauth-activity-7177988889268084736-llqP?utm_source=share&utm_medium=member_desktop
 
-3. Choosing the Right PaaS: Explore AWS ECS, Google Cloud Run, AWS Elastic Beanstalk, Azure ACI, and IBM Cloud Code Engine. Prioritize integration, ease of use, and scalability for your containerized apps! https://www.linkedin.com/posts/jashhinger_aws-ec2-containers-activity-7175710081416585216-Pz8M?utm_source=share&utm_medium=member_desktop
+3. Mastering Kubernetes Locally: Set up your test cluster with Docker Desktop in five simple steps. Deploy applications and practice with ease. https://www.linkedin.com/posts/jashhinger_kubernetes101-dockerinstall-enablekubernetes-activity-7178246795079139330-eHV1?utm_source=share&utm_medium=member_desktop
 
-4. Decoding Synchronous APIs: Understand their real-time benefits, workflow, use cases, pros, and cons. Consider a balanced approach for optimal performance and flexibility! https://www.linkedin.com/posts/jashhinger_synchronousapis-microservices-realtimeconnections-activity-7175815775369261059-5Nfh?utm_source=share&utm_medium=member_desktop
+4. Unlock the Power of Authentication Tokens: Understand what they are, how they work, and why they're essential for secure, streamlined logins. Explore benefits, components, and types! https://www.linkedin.com/posts/jashhinger_security-components-process-activity-7178352549324877828-qhEE?utm_source=share&utm_medium=member_desktop
 
-5. Explore Nomad: Master workload orchestration with features like efficient resource usage and zero downtime deployments. Learn key terms and operational aspects for seamless application management. https://www.linkedin.com/posts/jashhinger_cloudcomputing-devops-deployment-activity-7176434876655562752-5e36?utm_source=share&utm_medium=member_android
+5. Master Managed Kubernetes: Compare offerings, benefits, and costs to find the perfect fit. Dive into unique features like GKE's UI and OpenShift's budget options! 
 
-6. Unlock Asynchronous APIs: Explore AsyncAPI for event-driven architectures and messaging protocols. Learn practical use cases and security measures for seamless integration! https://www.linkedin.com/posts/jashhinger_eventdriven-asynchronous-apis-activity-7176540565948293120-E_ji?utm_source=share&utm_medium=member_android
+6. Empower Network Security: Explore ACLs for precise traffic control and heightened protection. Learn their features, types, rules, and benefits! 
 
 7. Choosing Container Orchestration: Docker Swarm offers simplicity, while Kubernetes provides flexibility and scalability. Decide based on workload complexity and expertise level. https://www.linkedin.com/posts/jashhinger_docker-installation-loadbalancing-activity-7176805275205570560-h02P?utm_source=share&utm_medium=member_desktop
 
