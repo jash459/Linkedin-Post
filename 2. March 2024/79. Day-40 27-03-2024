@@ -1,0 +1,38 @@
+Ready to level up your app deployment game? 🚀 Get the power of Kubernetes at your fingertips – and say goodbye to deployment headaches! 💆‍♀️
+
+Summary: Using kubectl to Create a Deployment on Kubernetes
+
+✪ Objectives  
+1️⃣  Learn about application Deployments. 🔍
+2️⃣  Deploy your first app on Kubernetes with kubectl. 🚀
+#Deploy  
+
+✪ Kubernetes Deployments  
+1️⃣  Kubernetes Deployments manage instances of your application, ensuring they run on Nodes in the cluster and are replaced if a Node fails.🛠️
+2️⃣  Deployments provide a self-healing mechanism, improving application reliability. 🔄 
+#Reliability  
+
+✪ Deploying your first app on Kubernetes  
+1️⃣  Use kubectl to create and manage Deployments. 📦   
+2️⃣  Specify the container image and number of replicas for your application. 🖼️ 
+#Configuration  
+
+✪ kubectl basics  
+1️⃣  Use `kubectl action resource` format for commands (e.g., `kubectl get nodes`). 💻  
+2️⃣  Verify kubectl configuration and installation with `kubectl version`. ℹ️ 
+#Commands 
+
+✪ Deploy an app  
+1️⃣  Deploy an app using `kubectl create deployment`. 🚀 
+2️⃣  Verify deployment with `kubectl get deployments`. ✅
+#Verification  
+
+✪ View the app  
+1️⃣  Pods in Kubernetes run on a private network. 🕸️  
+2️⃣  Use `kubectl proxy` to access the API from your host. 🔄  
+3️⃣  Use `curl` to query the API and view the Pod name. 🌐
+#Access 
+
+PS:  Want to scale up? Simply adjust those replicas with kubectl. 😉
+
+#kubernetes #devops #cloudnative #appdeployment #containerization
