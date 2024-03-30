@@ -1,0 +1,45 @@
+Tired of slow systems lagging behind you? 🤔 Ever waited for screens to load, or games to respond? That's latency at work! 🐌
+
+Understanding Latency: Factors, Measurement, and Impact on Applications and Systems
+
+✪ Latency meaning: 
+1️⃣ Latency refers to the time it takes for a request to travel from its point of origin to its destination and receive a response. 🚀
+2️⃣ It involves various factors such as processing time, network travel time, and queueing time, and can be measured in seconds, milliseconds, or nanoseconds. 📏 
+hashtag#definition
+
+✪ How does Latency work?: 🛠️
+1️⃣ Latency occurs due to the time taken for transmitting an action, server processing, transmitting the response, and updating the screen. ⏳
+2️⃣ High latency can cause delays in real-time applications, such as online gaming, resulting in shot registration delays and inconsistencies. 🎮 hashtag#functionality
+
+✪ What is Network Latency?: 🌐
+1️⃣ Network Latency is the time it takes for data to travel from one point in a network to another and is measured in milliseconds or microseconds. 🕰️
+2️⃣ It involves steps like data initiation, encapsulation, transmission, processing, propagation, and reaching the destination. 📡 
+hashtag#network
+
+✪ What is System Latency?: 💻
+1️⃣ System latency refers to the overall time it takes for a request to go from its origin in the system to its destination and receive a response. 🔄
+2️⃣ It encompasses processing time on both client and server, network transfers, and rendering delays. 📊 
+hashtag#system
+
+✪ How does High Latency occur?: ❗
+1️⃣ High latency can be caused by physical distance, network congestion, inefficient network infrastructure, wireless interference, slow hardware, software inefficiency, database access, and resource competition. 🚧 
+hashtag#causes
+
+✪ How to measure Latency?: 📏
+1️⃣ Methods for measuring latency include tools like Ping, Traceroute, MTR, network monitoring tools, time stamps, performance profiling tools, and APM tools. 🛠️
+2️⃣ Tips for accurate measurement include repeating measurements, controlling variables, and using appropriate tools. 🔍 
+hashtag#measurement
+
+✪ Latency in Transactions: 💳
+1️⃣ Refers to the time for processing a request and receiving a response in transactions. ⌛
+2️⃣ Steps involved: Initiating Payment, Network Transmission, Payment Processing, Response Transmission, Confirmation Screen. 🔄 
+hashtag#transactions
+
+✪ Latency in Gaming: 🎮
+1️⃣ Refers to the delay between a player's action and response in gaming. ⏳
+2️⃣ Steps involved: Player Action, Network Transmission, Server Processing, Response Transmission, Your Screen Update. 🔄 
+hashtag#gaming
+
+P.S. High latency doesn't have to be your reality! 😉
+Rahul Maheshwari
+hashtag#latency hashtag#performance hashtag#systems hashtag#technology hashtag#optimization
