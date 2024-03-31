@@ -1,0 +1,54 @@
+Tired of manual Kubernetes deployments? 🥱
+Want a smoother, stress-free process? 🤔
+Harness has the answer – automated CI/CD magic!
+
+✪ Prerequisites:
+1️⃣ Free Harness cloud account 🌐
+2️⃣ Node.js and npm installed ⚙️
+3️⃣ GitHub account for the sample notes application 📝
+4️⃣ Access to a Kubernetes cluster (Minikube or Kind) 🚀
+hashtag#kubernetes
+
+✪ Kubernetes deployment:
+
+→ Test the sample application locally:
+1️⃣ Fork and clone the sample notes application 🍴
+2️⃣ Navigate to the application folder: `cd notes-app-cicd` 📁
+3️⃣ Install dependencies: `npm install` 📦
+4️⃣ Run the application locally: `node app.js` ▶️
+hashtag#localtesting
+
+→ Containerize the application:
+1️⃣ Use the Dockerfile in the sample application repository 🐳
+2️⃣ Build, tag, and push the image to a container registry (e.g., Docker Hub) 🚢
+hashtag#docker
+
+→ Create or get access to a Kubernetes cluster:
+1️⃣ Use any cloud provider or tools like Minikube or Kind ☁️
+hashtag#kubernetesaccess
+
+→ Ensure the Kubernetes manifest files are clean:
+1️⃣ Check `deployment.yaml` and `service.yaml` in the repository 📋
+ hashtag#dockerimage
+
+→ Apply the manifest files:
+1️⃣ `kubectl apply -f deployment.yaml` 📄
+2️⃣ `kubectl apply -f service.yaml` 📄
+3️⃣ Verify pods: `kubectl get pods` 👀
+hashtag#cloudaccount
+
+→ Automate deployment using Harness:
+1️⃣ Sign up and create a project 📝
+2️⃣ Select 'Continuous Delivery' module and start your free plan 🔄
+3️⃣ Configure Kubernetes deployment in Harness ⚙️
+4️⃣ Download and install the Harness Delegate on your Kubernetes cluster 📥
+5️⃣ Configure service and add manifest details 🛠️
+6️⃣ Create a deployment pipeline and run it 🚀
+ hashtag#github
+
+Ready to ditch deployment headaches? Sign up for a free Harness account and supercharge your Kubernetes game! 
+
+P.S.: We used a sample notes app for this demo, but the power of Harness extends to any of your Kubernetes projects! 😉
+
+Rahul Maheshwari
+hashtag#kubernetes hashtag#devops hashtag#cicd hashtag#automation hashtag#cloudnative
