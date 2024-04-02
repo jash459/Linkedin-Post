@@ -2,13 +2,13 @@
 
 2. Power of Consistency: Ensure correctness, reliability, and data integrity in system design. Explore types like strong, eventual, causal, and more! https://www.linkedin.com/posts/jashhinger_consistency-strongconsistency-eventualconsistency-activity-7180526825377329152-Rtmv?utm_source=share&utm_medium=member_desktop
 
-3. Unlock Kubernetes Deployments: Learn creation, management, updates, and rollbacks. Dive into rollout history and key tips
+3. Unlock Kubernetes Deployments: Learn creation, management, updates, and rollbacks. Dive into rollout history and key tips. https://www.linkedin.com/posts/jashhinger_deployment-management-updating-activity-7180783515398008832-piSl?utm_source=share&utm_medium=member_android
 
-4. Cracking Consistency Challenges: Address scalability, cross-platform issues, and strategies for achieving consistency in distributed systems.
+4. Cracking Consistency Challenges: Address scalability, cross-platform issues, and strategies for achieving consistency in distributed systems. https://www.linkedin.com/posts/jashhinger_scalability-heterogeneity-mechanisms-activity-7180889240300380160-Tidp?utm_source=share&utm_medium=member_android
 
-5. Optimize Cloud Costs: Dive into cloud-native strategies, self-hosted Kubernetes, and cost management for efficient operations. https://www.linkedin.com/posts/jashhinger_cloudnative-selfhostedkubernetes-cloudcosts-activity-7178609186660859904-3hls?utm_source=share&utm_medium=member_desktop
+5. StatefulSets Demystified: Manage apps with persistent storage and stable identities. Explore deployment, scaling, and update strategies. 
 
-6. Boost Security: Dive into ACL processing for robust app security. Learn effective access management strategies!  https://www.linkedin.com/posts/jashhinger_security-processingofacl-application-activity-7178714881037131777-sLoh?utm_source=share&utm_medium=member_desktop
+6. Unlocking Availability: Learn why it's vital for user satisfaction and business success. Discover measurement, importance, and strategies for high availability.
 
 7. Enhance Deployment Reliability: Explore best practices for configuration and reliability to ensure smooth deployment processes. https://www.linkedin.com/posts/jashhinger_deploy-reliability-configuration-activity-7178971572626481152-3REM?utm_source=share&utm_medium=member_desktop
 
