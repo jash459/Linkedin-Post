@@ -1,0 +1,35 @@
+Ever struggled to get your head around how web traffic gets into your Kubernetes cluster? 🤔 Let's demystify Ingress!
+
+Content:
+
+✪ Kubernetes Ingress:  
+1️⃣  Maps domain names or URLs to existing services.🗺️  
+2️⃣  Requires an ingress controller to provide external access over HTTP or HTTPS.🔒
+#http  
+
+✪ Kubernetes Ingress Controller:  
+1️⃣  Acts as a load balancer for HTTP and HTTPS requests.⚖️  
+2️⃣  Specific to an environment and configured by operations teams.👷 
+#Config  
+
+✪ Ingress Resource Configuration:  
+1️⃣  Specify the host name used to access the application.🌐  
+2️⃣  Depends on factors external to the cluster, such as network characteristics and DNS services.🔧  
+3️⃣  Production deployments require DNS records pointing to the Kubernetes cluster.🚀 
+#Deployment  
+
+✪ Example of Ingress Resource:  
+1️⃣  Includes metadata such as the ingress resource name and the host name.📝  
+2️⃣  Specifies the accepted paths, backend service, and port number.🛠️ 
+#Backend  
+
+✪ Testing Your Ingress:  
+1️⃣  Verify external access to the application using a web browser or the curl command.👩‍💻  
+2️⃣  Troubleshooting steps if the browser does not obtain the expected response.🔍 
+#Troubleshooting  
+
+Ready to level up your Kubernetes networking game? Give this post a 👍 and let me know your biggest Ingress challenges in the comments!
+
+P.S. Don't be shy about asking those Ingress questions - the Kubernetes community is here to help! 😉
+
+#kubernetes #devops #cloudnative

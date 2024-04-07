@@ -1,0 +1,35 @@
+Tired of feeling lost in a sea of Kubernetes services? 🌊
+
+✪ Discovering Kubernetes Services:
+1️⃣  Components in a Kubernetes cluster can discover a service through DNS or environment variables provided by the kubelet.🔍
+#components
+   
+✪ Debugging Kubernetes Services:
+
+→ Possible problems with a service include:
+1️⃣  Non-existent service ❌
+2️⃣  DNS issues 🔄
+3️⃣  Misconfigured service ⚙️
+4️⃣  Unstable pods 🏗️
+5️⃣  kube-proxy errors 🛡️
+
+→ Debugging procedure involves:
+1️⃣  Checking service existence 🔍
+2️⃣  Ensuring DNS functionality 🔄
+3️⃣  Verifying port access 🔌
+4️⃣  Reviewing service and endpoint configuration ⚙️
+5️⃣  Checking pod status 🏗️ 
+#kubernetes
+
+✪ Kubernetes Troubleshooting with Komodor:
+→ Komodor is a tool that offers:
+1️⃣  Change intelligence 🔄
+2️⃣  In-depth visibility 🔍
+3️⃣  Insights into service dependencies 🔄
+4️⃣  Seamless notifications for Kubernetes troubleshooting needs 🛠️ #komodor
+
+Ready to streamline your Kubernetes service management? Discover Komodor! ➡️
+
+P.S. Komodor gives you the superpowers to see through Kubernetes complexity 💪
+
+#kubernetes #devops #cloudnative #containers #microservices

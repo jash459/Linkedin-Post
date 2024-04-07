@@ -1,0 +1,25 @@
+Ever wondered what's the big deal about SQL and NoSQL? 🤔 Let's break it down, shall we?
+
+Differences between NoSQL and SQL databases:
+
+✪ Relational databases
+1️⃣  Optimal workloads: Designed for transactional and strongly consistent OLTP applications. Also good for OLAP.🔍
+2️⃣  Data model: Normalizes data into tables of rows and columns with a strict schema.📊
+3️⃣  ACID properties: Provides atomicity, consistency, isolation, and durability.🔒
+4️⃣  Performance: Generally dependent on the disk subsystem and requires query optimization.⚙️
+5️⃣  Scale: Typically scales up by increasing hardware capabilities or scales out by adding replicas.📈
+6️⃣  APIs: Uses structured query language (SQL) for data communication.💬
+#databases
+
+✪ NoSQL databases
+1️⃣  Optimal workloads: Designed for various data access patterns, including low-latency applications and analytics over semi-structured data.🚀
+2️⃣  Data model: Provides a variety of models like key-value, document, graph, and column optimized for performance and scale.🔑
+3️⃣  ACID properties: Offers trade-offs by relaxing some ACID properties for more flexible data models.🔄
+4️⃣  Performance: Dependent on hardware cluster size, network latency, and calling application.🚄
+5️⃣  Scale: Typically partitionable, enabling consistent performance at near-boundless scale.🌐
+6️⃣  APIs: Uses object-based APIs for storing and retrieving data structures.🔄
+#nosqldatabases
+
+CTA : Which type of database gets your vote? Let's talk about it in the comments below! 👇
+
+P.S : Need help deciding the best database for your next project? I'm here for a deeper chat 😉
