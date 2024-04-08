@@ -1,0 +1,29 @@
+
+Tired of manually configuring traffic into your Kubernetes cluster? 🤔 Discover the power of Kubernetes Ingress!
+
+Content:
+
+✪ What is Kubernetes Ingress?
+1️⃣  Ingress refers to the act of entering, similar in Kubernetes—traffic entering/exiting the cluster.🚪
+#Kubernetes
+
+✪ Kubernetes ingress & egress
+1️⃣  Ingress is a Kubernetes resource for DNS routing configurations, with the ingress controller managing routing based on rules. 🛡️
+2️⃣  Without ingress, you'd use a LoadBalancer service; with ingress, there's a reverse proxy layer (controller) between the load balancer and Kubernetes services. 🔀
+# LoadBalancer
+
+✪ Before Kubernetes Ingress?
+1️⃣  Previously, custom Nginx or HAproxy Kubernetes deployments acted as LoadBalancers for routing traffic. 🔄
+2️⃣  Kubernetes ingress simplifies this by using native Kubernetes objects for routing rules, managed by ingress controllers. 🛠️
+#legacyrouting
+
+✪ How Does Kubernetes Ingress work?
+1️⃣  Kubernetes Ingress Resource stores DNS routing rules. 📚
+2️⃣  Kubernetes Ingress Controller (e.g., Nginx/HAProxy) routes traffic based on rules applied through ingress resources. 🌐
+ #routingprocess
+
+CTA : Ready to take control of your Kubernetes traffic? Learn more about Ingress! 👇
+
+P.S : Ingress simplifies load balancing and external access... a total game-changer! 💥
+
+#kubernetes #ingress #devops #cloudnative #containerization
