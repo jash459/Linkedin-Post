@@ -1,0 +1,40 @@
+Ever wondered how those fancy apps on your Kubernetes cluster get their traffic? 🤔 Let's unravel the mystery of the Kubernetes Ingress Controller! 👇
+
+✪ Kubernetes Ingress Controller: The Basics
+
+1️⃣  Ingress controller is not a native Kubernetes implementation, so it doesn’t come default in the cluster. 🌐
+2️⃣  We need to set up an ingress controller for the ingress rules to work. Several open-source and enterprise ingress controllers are available. 🚀
+3️⃣  An ingress controller is typically a reverse web proxy server implementation in the cluster. It is deployed as a Kubernetes deployment and exposed as a service type LoadBalancer. 🔄
+#kubernetes 
+
+✪ How Does an Ingress Controller Work?
+
+1️⃣  Nginx is one of the widely used ingress controllers. 🌟
+2️⃣  The nginx.conf file inside the Nginx controller pod is a lua template that can talk to Kubernetes ingress API and get the latest values for traffic routing in real-time. 📃
+3️⃣  The Nginx controller talks to the Kubernetes ingress API to check if there is any rule created for traffic routing. 🚦
+4️⃣  If it finds any ingress rules, the Nginx controller generates a routing configuration inside /etc/nginx/conf.d location inside each nginx pod. 📝
+5️⃣  For each ingress resource you create, Nginx generates a configuration inside /etc/nginx/conf.d location. 📦
+6️⃣  The main /etc/nginx/nginx.conf file contains all the configurations from etc/nginx/conf.d. 📂
+#ingresscontroller
+
+✪ Ingress & Ingress Controller Architecture
+
+1️⃣  Here is the architecture diagram that explains the ingress & ingress controller setup on a Kubernetes cluster. 🏗️
+2️⃣  It shows ingress rules routing traffic to two payment & auth applications. 💳\
+3️⃣  Now if you look at the architecture, it will make more sense and you will probably be able to understand how each ingress workflow works. 🔄
+#Ingress Controller Architecture
+
+✪ List of Kubernetes Ingress Controller
+
+1️⃣  Nginx Ingress Controller (Community & From Nginx Inc) 🌐  
+2️⃣  Traefik 🚦  
+3️⃣  HAproxy 🔒  
+4️⃣  Contour 🎨  
+5️⃣  GKE Ingress Controller for GKE 🌟  
+6️⃣  AWS ALB Ingress Controller For AKS 🌐  
+7️⃣  Azure Application Gateway Ingress Controller 🔄
+#controllers 
+
+CTA : Ready to master traffic management in your Kubernetes cluster?  Let's discuss which ingress controller suits your setup best! 👇
+
+P.S.  Picking the right controller can make a world of difference for your app performance! 😉
