@@ -1,0 +1,31 @@
+Ready to level up your networking knowledge? 🤔  Let's break down the key differences between hubs, switches, and routers!
+
+Hub:
+1️⃣  Operates at the physical layer (Layer 1) of the OSI model. 🔌
+2️⃣  Functions based on broadcasting signals to all connected ports. 📡
+3️⃣  Acts as a multiport repeater without intelligence for selective communication. 🔄
+4️⃣  Typically less expensive compared to switches and routers. 💰
+5️⃣  Speed ranges from 10Mbps to 100Mbps in modern hubs. 🚀
+#hub
+
+Switch:
+1️⃣  Works at the data link layer (Layer 2) of the OSI model. 🔗
+2️⃣  Uses MAC addresses to direct messages to specific devices effectively. 📨
+3️⃣  Provides better connections through features like flooding, filtering, and frame transmission. 🌐
+4️⃣  More intelligent than hubs, selectively routing messages. 🧠
+5️⃣  More expensive than hubs. 💸
+#switch
+
+Router:
+1️⃣  Operates at the network layer (Layer 3) of the OSI model. 🌐
+2️⃣  Routes data based on IP addresses. 🛣️
+3️⃣  Multiport and sophisticated, making decisions about the best route for data transmission. 🧭
+4️⃣  Requires at least two networks to connect. 🌐
+5️⃣  Handles LANs, MANs, and WANs routing. 🌍
+#router
+
+CTA:  Which device aligns best with your current networking needs? Let me know in the comments! 👇
+
+P.S.  Looking to upgrade your skills?  Enroll in [Course/Workshop] to become a network ninja! 🥷
+
+#networking #networkengineer #IT #cybersecurity #cisco #comptia
