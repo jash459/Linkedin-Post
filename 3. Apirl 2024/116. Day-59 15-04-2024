@@ -1,0 +1,21 @@
+Ever wonder how your messages really travel across the internet? 🤔
+
+Let's break down communication with the OSI Model: 💡
+
+✪ Communication in the OSI Model
+1️⃣  Layered Communication: OSI model involves layered communication, with each layer adding identifying information to the data. 🔄
+2️⃣  Data Transmission: Sender's app sends data down, each layer adds headers before passing it on. Data moves down until transmitted through physical medium. At the receiver, data moves up, each layer processes data based on relevant headers. 📡
+#OSIModel
+
+✪ Alternatives to OSI Model
+1️⃣  TCP/IP Model: TCP/IP model, with five layers, is the main alternative, more commonly used. While some layers in TCP/IP model map directly to OSI model, it most accurately maps to internet protocols. 🔗
+2️⃣  Proprietary Protocols: Not all internet-based systems follow TCP/IP or OSI models. Organizations may design proprietary standards and models for closed-source use. 🛡️
+#NetworkingModels
+
+✪ AWS Networking Offerings
+1️⃣  AWS Networking Solutions: AWS provides networking and content delivery offerings to complement internal applications. These include AWS App Mesh, Amazon CloudFront, AWS Direct Connect, and Elastic Load Balancing (ELB). 🌐
+#AWSNetworking
+
+CTA: Ready to level up your networking knowledge? Lets Connect 🔗
+
+PS: The OSI Model is still super relevant, even with newer stuff on the scene! 😉
