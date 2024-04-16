@@ -1,0 +1,40 @@
+Ever wondered how the internet actually works? 🤔  Let's dive into the magic!
+
+✪ Key Layers:
+
+1️⃣ Application Layer: Handles end-to-end communication (HTTP, HTTPS, SSH, NTP).🚀
+2️⃣ Transport Layer: Ensures packets arrive in order and without errors (TCP, UDP).🌐
+3️⃣ Internet Layer: Responsible for logical data transmission over networks (IP, ICMP, ARP).🔗
+4️⃣ Data Link Layer: Identifies network protocol types and provides error prevention and framing.🔒
+5️⃣ Physical Layer: Focuses on network communications and data generation.⚡
+#keylayers
+
+✪ TCP vs. IP:
+
+1️⃣ IP (Internet Protocol): Finds the destination for data transmission.🎯
+2️⃣ TCP (Transmission Control Protocol): Sends and receives data.🔄
+#tcp
+
+✪ TCP/IP Model Working:
+
+1️⃣ Divides data into packets at the sender's end and recombines them at the receiver's end for accurate data transfer.📦
+#ip
+
+✪ Comparison with OSI Model:
+
+1️⃣ TCP/IP model has fewer layers (four or five) compared to the OSI model with seven layers.📊
+2️⃣ TCP/IP model integrates session and presentation layers into the application layer directly.🔌
+#osimodel
+
+✪ Common Internet Protocols:
+
+1️⃣ Examples include HTTP for web communication, FTP for file transfer, and SMTP for email communication.📧
+#protocols
+
+✪ Difference between TCP/IP and OSI Models:
+
+1️⃣ TCP/IP provides connectionless services at the network layer and connections via the transport layer, while OSI has separate layers for these functions.🔗
+2️⃣ OSI model's transport layer ensures packet delivery but not in TCP/IP.📮
+#models
+
+P.S.  Understanding these layers is like unlocking the secrets of the digital universe! 😉

@@ -1,0 +1,91 @@
+Tired of your Kubernetes secrets feeling like they're out on the open web? 🕸️
+
+
+
+✪ How to Create a Kubernetes Secret:
+
+
+
+→  Create the Secret:
+
+1️⃣  Use `kubectl create secret` command. 🔒
+
+2️⃣  Create from literal: ```shell kubectl create secret generic my-secret --from-literal=password=abc123   ```
+
+3️⃣  Create from file: ```shell kubectl create secret generic my-secret --from-file=ssh-privatekey=/path/to/privatekey --from-file=ssh-publickey=/path/to/publickey ```
+
+
+
+→  Use the Secret in a Pod:
+
+1️⃣  Add a volume that references the Secret. 📦
+
+2️⃣  Mount the volume into the container using YAML definitions. 🗃️
+
+
+
+→  Use the Kubernetes Secret in a Deployment:
+
+1️⃣  Add an environment variable in the Deployment definition. 🛠️
+
+2️⃣  Reference the Secret with `valueFrom` and `secretKeyRef`. 🗝️
+
+
+
+→  View and Modify Kubernetes Secrets:
+
+1️⃣  View: `kubectl get secret <secret-name>`. 👀
+
+2️⃣  Decode: Use an external base64 decoder. 🔓
+
+3️⃣  Modify: Use `kubectl edit secret <secret-name>`. 🖊️
+
+4️⃣  Delete: Use `kubectl delete secret <secret-name>`. ❌
+
+#KubernetesSecrets
+
+
+
+
+
+✪ How Secure are Kubernetes Secrets?
+
+1️⃣  Kubernetes secrets are encrypted using the AES-256 encryption algorithm. 🔒
+
+2️⃣  Access to secrets is controlled by Kubernetes RBAC rules. 🛡️
+
+3️⃣  They are stored in memory only when used by a pod and are deleted once the pod terminates. 🗑️
+
+4️⃣  However, potential security risks exist, such as unauthorized access to the cluster or a pod, compromising secret security. ⚠️
+
+#K8sSecurity
+
+
+
+✪ Kubernetes Secrets Best Practices:
+
+1️⃣  Implement network security controls to secure the cluster. 🌐
+
+2️⃣  Use strong authentication mechanisms. 🔐
+
+3️⃣  Limit access to sensitive resources. 🚫
+
+4️⃣  Avoid storing secrets in environment variables. ❌
+
+5️⃣  Restrict access to secrets to only the pods that need them. 🚪
+
+#DevOpsBestPractices
+
+
+
+CTA : Ready to lock down your Kubernetes secrets?  Let's discuss strategies! 💬
+
+
+
+P.S.  Extra protection never hurts – consider a secrets management tool for even tighter control 😉
+
+
+
+Rahul Maheshwari
+
+#DevOpsBestPractices #CloudSecurity #Kubernetes
