@@ -1,0 +1,59 @@
+Ever wondered how the internet actually gets your message from Point A to Point B? 🤔
+
+
+
+Let's break down the magic of the internet! Meet the TCP/IP model – the foundation of how information travels online. ✨
+
+
+
+✪ TCP/IP Model and its Functionality:
+
+
+
+1️⃣  The TCP/IP model is a concise alternative to the OSI model, featuring four layers. 🔗
+
+2️⃣  Its primary function is to ensure the reliable and accurate transfer of data from one device to another through packet division and recombination. 🔄
+
+3️⃣  The TCP/IP model's layers are the Application, Transport, Internet, and Link layers, each serving specific functions in data transmission. 💻 
+
+#DataTransfer
+
+
+
+✪ Difference between TCP and IP:
+
+
+
+1️⃣  TCP and IP have distinct roles in data transmission. IP is responsible for locating the data's destination, while TCP manages the sending and receiving of the data. 🎯
+
+Sure, here are shorter versions:
+
+2️⃣  TCP ensures error-free and ordered data transmission by reordering and requesting retransmission of lost packets. 🔀
+
+3️⃣  IP provides addressing and routing for packets, ensuring they reach the correct destination on a network. 🌐
+
+#TransmissionRoles
+
+
+
+✪ Working of the TCP/IP Model:
+
+1️⃣  The model segments data into packets at the sender's end and recombines them at the receiver's end to maintain data accuracy. 🔀 
+
+2️⃣  The TCP/IP Model divides data into packets for transmission. These packets are recombined at the receiver's end to maintain data accuracy.📦
+
+3️⃣  The model consists of four layers: Application, Transport (TCP/UDP), Network/Internet (IP), and Data Link (MAC), followed by the Physical Layer.🔒
+
+#DataSegmentation
+
+
+
+CTA:  Want to dive deeper into networking fundamentals? Let's connect! 🤝
+
+
+
+P.S.  Who else finds the internet's behind-the-scenes workings fascinating?🤯
+
+
+
+#networking #internet #tech
