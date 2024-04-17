@@ -1,0 +1,57 @@
+Tired of your Kubernetes apps running out of juice? 🤔  Let's dive into the world of resource management!
+
+
+
+✪ Kubernetes Resource Management:
+
+1️⃣  Kubernetes resource management is crucial for deploying and managing containerized applications. 👨‍💻
+
+2️⃣  It allows administrators to control the allocation of CPU, memory, storage, and other resources. 💡
+
+#Kubernetes Resource
+
+
+
+✪ Compute and Non-Compute Resources:
+
+1️⃣  Compute resources include CPU, memory, and ephemeral storage. 💻
+
+2️⃣  Non-compute resources encompass network bandwidth, disk IOPS, and GPU acceleration. 🚀
+
+#Resource
+
+
+
+✪ Importance of Resource Management:
+
+1️⃣  Efficient resource management ensures applications have enough resources. 📊
+
+2️⃣  It prevents excessive consumption and enables scheduling decisions based on resource requirements. ⏳
+
+3️⃣  Resource management also optimizes infrastructure cost, ensuring optimal resource utilization and high-performance applications in Kubernetes clusters. 💰
+
+#Resource Management
+
+
+
+✪ Kubernetes Resources:
+
+1️⃣  Cluster resources include CPU, memory, storage, and network bandwidth. 🌐
+
+2️⃣  Pod resources are allocated to individual pods with CPU, memory, and volume storage. 📦
+
+#Kubernetes Resources
+
+
+
+CTA: Ready to level up your Kubernetes resource game?  Let's discuss strategies in the comments! 👇
+
+
+
+P.S.  Resource requests and limits are your secret weapons – use them wisely! 😉
+
+
+
+Rahul Maheshwari
+
+#kubernetes #containerization #devops #cloudnative #resourceoptimization
