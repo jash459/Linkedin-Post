@@ -1,0 +1,48 @@
+Ready to level-up your network knowledge? 🤔 Let's dive into the fascinating world of transmission modes!
+
+Transmission Modes in Computer Networks
+
+✪ Simplex Mode : Communication is unidirectional, allowing data transmission in only one direction.
+   
+→ Advantages:
+1️⃣  Easy and reliable mode of communication.🔌
+2️⃣  Cost-effective, requiring only one communication channel.💰
+3️⃣  No need for coordination between the transmitting and receiving devices.🤝
+   
+→ Disadvantages:
+1️⃣  Only one-way communication is possible.🔃
+2️⃣  Inability to verify if transmitted data has been received correctly.🧮
+3️⃣  Not suitable for bidirectional communication applications.🚷
+#simplexmode
+
+✪ Half-Duplex Mode : Each station can transmit and receive, but not simultaneously.
+   
+→ Advantages:
+1️⃣  Allows bidirectional communication.🔄
+2️⃣  More efficient than simplex mode.🚀
+3️⃣  Less expensive than full-duplex mode.💸
+   
+→ Disadvantages:
+1️⃣  Less reliable than full-duplex mode.🔓
+2️⃣  Delay between transmission and reception.⏳
+3️⃣  Requires coordination between transmitting and receiving devices.🕰️
+#halfduplexmode
+
+✪ Full-Duplex Mode : Both stations can transmit and receive simultaneously.
+   
+→ Advantages:
+1️⃣  Allows simultaneous bidirectional communication, ideal for real-time applications.⏱️
+2️⃣  Most efficient mode of communication.📈
+3️⃣  Provides a high level of reliability and accuracy.🎯
+   
+→ Disadvantages:
+1️⃣  Most expensive mode, requiring two communication channels.💸💸
+2️⃣  More complex than simplex and half-duplex modes.🔧
+3️⃣  May not be necessary for some types of communication.🛑
+#fullduplexmode
+
+CTA: Ready to put this knowledge to work? Drop a comment below on where you think these modes would be most useful! 👇
+
+P.S.  Ever wondered why your video call sometimes lags? That could be a hint that you're not in full-duplex mode. 😉
+
+Hashtags: #transmissionmodes #computernetworks #networking101
