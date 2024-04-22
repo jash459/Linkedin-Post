@@ -1,0 +1,31 @@
+Ready to lock down your sensitive data in Kubernetes? 🔐
+
+✪ What are Kubernetes Secrets?
+1️⃣ Kubernetes Secret is an object that contains a small amount of sensitive data such as login usernames, passwords, tokens, and keys.
+2️⃣ The primary purpose of Secrets is to reduce the risk of exposing sensitive data while deploying applications on Kubernetes.
+#KubernetesSecurity
+
+✪ Key Points about Kubernetes Secrets:
+1️⃣ Secrets are created outside of Pods, necessitating the creation of a Secret before any Pod can use it. 🔒
+2️⃣ When a Secret is created, it is stored inside the Kubernetes data store, specifically in an etcd database on the Kubernetes Control Plane. 🗄️
+3️⃣ During the creation of a Secret, the data and/or stringData fields are specified, with the values for all the data field keys being base64-encoded strings. However, arbitrary strings can be specified for the stringData field if base64 encoding is not desired. 📝
+4️⃣ The size of each Secret is limited to 1MB to discourage the creation of excessively large secrets to prevent memory exhaustion in kube-apiserver and kubelet. 📏
+5️⃣ The immutable property can be set to true when creating a Secret, making them immutable and protecting them from accidental or unwanted updates that could cause application outages. 🛡️
+6️⃣ After creating a Secret, it can be injected into a Pod either by mounting it as data volumes, exposing it as environment variables, or as imagePullSecrets. 🚀
+#KubernetesDeployment
+
+✪ Types of Kubernetes Secrets:
+1️⃣ Opaque Secrets: Default Secret type used to store arbitrary user-defined data. 🌑
+2️⃣ Service Account Token Secrets: Used to store a token credential that identifies a service account. The https://lnkd.in/gr4Z9pcq annotation must be set to an existing service account name. 🤖
+3️⃣ Docker Config Secrets: Store credentials for accessing a container image registry using kubernetes.io/dockercfg or https://lnkd.in/gvnSV6tz values. 🐳
+4️⃣ Basic Authentication Secrets: Store credentials required for basic authentication with keys such as username and password. 🔑
+5️⃣ SSH Authentication Secrets: Used for storing data utilized in SSH authentication, requiring a ssh-privatekey key-value pair in the data (or stringData) field. 🚪
+6️⃣ TLS Secrets: Store a certificate and its associated key used for TLS, requiring tls.key and tls.crt keys in the data (or stringData) field. 🛡️
+7️⃣ Bootstrap Token Secrets: Store bootstrap token data during the node bootstrap process, named in the form bootstrap-token- in the kube-system namespace.
+#KubernetesSecrets
+
+CTA: Level up your Kubernetes security game! Do you use Secrets? 🤔
+
+P.S. Don't forget to share your Kubernetes secrets-handling tips below! 👇
+
+#Kubernetes #Security #DevOps
