@@ -1,0 +1,40 @@
+Ever wonder how your computer knows when something's... off? 🤔 It's all about error detection and correction! Let's break it down.
+
+✪ Types of Errors
+1️⃣  Single-bit Error: Only one bit of the frame received is corrupt.🌟
+2️⃣  Multiple-bit Error: More than one bit in the frame is corrupted.🔥
+3️⃣  Burst Error: More than one consecutive bit is corrupted.💢
+#types
+
+✪ Error Detection
+→  Simple Parity Check:
+1️⃣  Adds a parity bit based on the number of 1's in the data block.🌈
+2️⃣  Disadvantages: Fails in multi-bit error detection, and does not detect errors in two bits.🎯
+→  Two-Dimensional Parity Check:
+1️⃣  Parity bits are calculated for rows and columns and compared at the receiver's side.🌟
+2️⃣  Disadvantages: Fails to detect 4-bit errors or more.🔥
+→  Checksum:
+1️⃣  Uses 1's complement to find sum of data segments.🌈
+2️⃣  Disadvantages: Fails to detect errors in certain corrupted bit scenarios.🎯
+→  Cyclic Redundancy Check (CRC):
+1️⃣  Uses binary division and adds a bit sequence to the data.🌟
+2️⃣  Disadvantages: May lead to overflow of data.🔥
+#errordetection
+
+✪ Error Correction
+1️⃣  Backward Error Correction: Receiver requests for the whole data unit to be resent if an error is found.🌈
+2️⃣  Forward Error Correction: Receiver uses an error-correcting code to automatically correct errors.🎯
+#errorcorrection
+
+✪ Error Correction Techniques
+→  Hamming Code: Parity bits are added to the original data to make the total 1's either even or odd.🌟
+→  Algorithm:
+1️⃣  Add information in 'd' bits to the redundant bits 'r'.🌈
+2️⃣  Assign a decimal value to the position of each (d+r) digit.🔥
+3️⃣  Place 'r' bits in positions 1, 2…2k.🎯
+4️⃣  Calculate parity bits on the receiver's end.💢
+#errorcorrectiontechniques
+
+P.S.  Keeping your data safe and sound is serious business! 🔐
+
+#computernetworks #dataintegrity #cybersecurity 
