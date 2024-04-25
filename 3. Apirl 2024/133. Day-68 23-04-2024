@@ -1,57 +1,15 @@
-Cracking the code of Kubernetes complexity? 👀 These tools will illuminate your cluster's inner workings.
+Celebrating 500 days of LeetCode challenges! 🎉.
 
-✪ Summary of Kubernetes Observability Tools
+It has been a long and interesting journey. I have learned a lot about algorithms and problem-solving, and my codingskills have improved a lot.
 
-→ CloudZero
-1️⃣  Granular Kubernetes cost analysis 📊
-2️⃣  Delivers contextual cost data related to namespaces, pods, clusters, hours, etc. 🕒
-3️⃣  Enables comparison of Kubernetes costs with other cloud and software spend 💸
-4️⃣  Offers real-time cost anomaly detection and intelligent alerting 🚨
+Here are a few tips from my experience:
+1. Start with the easy problems to build confidence.
+2. Don't hesitate to ask for help when needed.
+3. If you're a beginner, take it topic by topic, not randomly to stay motivated.
+4. Keep pushing forward, even when it gets tough.
 
-→ Prometheus
-1️⃣  Open-source observability tool with alerting capabilities 🔔
-2️⃣  Gathers metrics from K8s containers, pods, nodes, and services 📈
-3️⃣  Cloud-native and uses time-series metrics collection and a built-in query language ⏱️
-4️⃣  Can be run stand-alone, with a Kubernetes Operator, or in combination with Grafana 🔄
+Consistency is the biggest challenge, so practice a few problems daily. 
 
-→ Grafana
-1️⃣  Offers Kubernetes observability dashboards and alerts 📊
-2️⃣  Available in enterprise and open-source versions, with the paid version offering authentication and premium support 🔒
-3️⃣  Integrates with commercial monitoring platforms, like AppDynamics and Datadog 💼
+Thinking about the hashtag#LeetCode challenge? Just go for it! It's a rewarding journey of hashtag#programming growth. hashtag#codingjourney 🚀
 
-→ ELK Stack
-1️⃣  Consists of Elasticsearch, Logstash, and Kibana for observability data visualization 📊
-2️⃣  Elasticsearch serves as a search and analytics engine, Logstash provides a server-side data pipeline, and Kibana visualizes observability data 📈
-
-→ Splunk
-1️⃣  Provides detailed analysis of K8s nodes, pods, and containers 📊
-2️⃣  Utilizes Artificial Intelligence for context in the health and performance of Kubernetes clusters 🤖
-
-→ Instana
-1️⃣  Captures health and performance insights from containers, nodes, and apps 📊
-2️⃣  Automatically discovers K8s services and supports all K8s distributions 🔄
-
-→ Sematext
-1️⃣  Agent-based Kubernetes observability platform that captures and transforms data from various sources within the Kubernetes environment 📊
-
-→ Pixie
-1️⃣  eBPF-based K8s observability solution for metrics, events, traces, and logs 📊
-2️⃣  Runs entirely in Kubernetes and enables custom scripts for debugging Kubernetes bugs 🐞
-
-→ New Relic integration with Pixie
-1️⃣  Combines New Relic’s full-stack Kubernetes monitoring with Pixie’s eBPF-based observability approach 🔄
-2️⃣  Offers premium support, long-term telemetry retention, incident correlation, and smart alerting 💼
-#Kubernetes Observability Tools
-
-✪ Kubernetes Observability Best Practices
-1️⃣  Track all key components in Kubernetes, including pods, nodes, clusters, deployments, and services. 🎯
-2️⃣  Use metrics, logs, and event traces together for comprehensive observability. 📊
-3️⃣  Automate Kubernetes observability for accurate, real-time insights. ⏱️
-4️⃣  Avoid relying solely on managed Kubernetes services for observability. ❌
-#Kubernetes
-
-CTA: Which of these Kubernetes observability tools have you used? Any hidden gems to share? 👇
-
-P.S.  Good observability is like a sixth sense for your Kubernetes cluster... ✨
-
-#Kubernetes #Observability #DevOps
+hashtag#leetcode hashtag#algorithm hashtag#progamming hashtag#consistency
