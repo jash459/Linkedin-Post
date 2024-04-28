@@ -1,0 +1,23 @@
+Ever wondered how your computer knows its own name on the network? 🤔  It's all thanks to the MAC address!
+
+✪ MAC Address Definition:
+1️⃣  A MAC address is a unique 48-bit hardware number assigned to a network card during manufacturing. 🔗
+2️⃣  It is also known as the Physical Address of a network device and is used at the Data Link Layer. 🔒
+
+✪ Format of MAC Address:
+1️⃣  A MAC Address is represented as a 12-digit hexadecimal number, often shown as colon-hexadecimal notation. 🔄
+2️⃣  The first 6 digits identify the manufacturer, while the last 6 digits represent the unique network interface controller. 🆔
+
+✪ Types of MAC Address:
+1️⃣  Unicast, Multicast, and Broadcast are the three types, each serving specific communication purposes. 📡
+2️⃣  MAC addresses can also be classified based on their assignment, such as burned-in addresses (BIAs) and universally administered addresses (UAAs).🔄
+
+✪ Reason for IP and MAC Addresses:
+1️⃣  IP addresses are used for end-to-end delivery, while MAC addresses facilitate hop-to-hop delivery in the OSI model. 🔄
+2️⃣  IP addresses are essential for network communication because they uniquely identify devices on a network, enabling data to be routed correctly.🔒
+
+CTA:  Want to uncover your device's MAC address? It's surprisingly easy! Let me know in the comments if you'd like a quick tutorial 👇
+
+P.S.  MAC addresses can be spoofed, but that's a story for another time... 😉
+
+#networking  #cybersecurity #tech
