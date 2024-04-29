@@ -1,0 +1,49 @@
+Tired of slow pod scheduling in your Kubernetes cluster? 🤔 Let's dive into the secrets of efficient scheduling!
+
+✪ Definition of Scheduling in Kubernetes:
+1️⃣ Refers to matching pods to nodes, ensuring that Kubelet can run them on available nodes. 🔄
+2️⃣ The Kubernetes scheduler takes new pods from a queue and schedules them on nodes. 🗓️
+#Definition
+
+✪ Kube Scheduler:
+1️⃣ Default scheduler for Kubernetes that runs as part of the control plane. 🚀
+2️⃣ Responsible for selecting optimal nodes for newly created or unscheduled pods. 🎯
+#Kube Scheduler
+
+✪ Filters:
+1️⃣ Default scheduler registers a series of predicates to apply filters to pods. 🔍
+2️⃣ The FeasibleNodes mechanism can be used to increase performance for scheduling large-scale clusters. 🚀
+#Filters
+
+✪ Prioritize:
+1️⃣ Pod priority allows scoring nodes to find the most appropriate node for a pod. 🎯
+2️⃣ Utilizes Map and Reduce arguments in the PriorityConfig file. 🗺️
+#Prioritize
+
+✪ Methods Used for Scheduling Pods:
+→ Node Selector:
+1️⃣ Simplest recommendation for scheduling a pod on a specific node using key-value pairs. 🔄
+2️⃣ Node can be labeled using kubectl label nodes <node-name> disktype=ssd. 🔖
+
+→ Node Affinity/Anti-Affinity:
+1️⃣ Fixing rules for node selection, defined using custom labels and selectors. 🚥
+2️⃣ Can be required or preferred rules in node affinity and anti-affinity. ⭐
+
+→ Taints and Tolerations
+1️⃣ Allows marking nodes as unschedulable and enabling pods to tolerate the taints. 🚫
+2️⃣ Useful for situations where most pods should avoid scheduling onto certain nodes. 🛑
+
+→ Taints/Toleration and Node Affinity:
+1️⃣ Combining taints/tolerations and node affinity to dedicated nodes for specific pods. 🔄
+#SchedulingPods
+
+✪ Status Quo:
+1️⃣ The main scheduling method of the Kubernetes scheduler is Pod-by-Pod. 🔄
+2️⃣ Current shortcomings include slow pod scheduling in large clusters and lack of excellent scalability. 📉
+#StatusQuo:
+
+CTA : Have you found ways to optimize Kubernetes scheduling in large clusters? Share your tips below! 👇
+
+P.S. Looking to make your cluster even more efficient? 🤔 Stay tuned for future posts on advanced scheduling strategies!
+
+#Kubernetes #ClusterManagement #PodScheduling #CloudNative #DevOps
