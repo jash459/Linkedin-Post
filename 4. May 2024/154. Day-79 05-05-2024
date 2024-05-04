@@ -1,0 +1,58 @@
+Ever waited forever for a website to load? That frustrating slowdown is likely network congestion! Let's break it down... 💥
+
+Network Congestion and Congestion Control Algorithms:
+
+✪ Definition of Congestion:
+1️⃣  Occurs when message traffic overwhelms network capacity. 🚦
+2️⃣  Slows down network response time. ⏳
+#networkcongestion
+
+✪ Effects of Congestion:
+1️⃣  Increased delay reduces performance. 📉
+2️⃣  Retransmission occurs as delays increase, worsening the situation. 🔁
+#congestioneffects
+
+✪ Congestion Control Algorithms:
+1️⃣  Mechanism regulating data packets' entry into the network. 🔄
+2️⃣  Enables better utilization of shared network infrastructure. 💡
+#congestionalgorithms
+
+✪ Congestive-Avoidance Algorithms (CAA):
+1️⃣  Implemented at the TCP layer to prevent congestive collapse. 🚧
+#caaalgorithm
+
+✪ Leaky Bucket Algorithm:
+1️⃣  Controls traffic rate to the network for shaping purposes. 🚰
+2️⃣  Converts burst traffic into steady streams. 🌊
+3️⃣  Inefficient resource utilization due to constant output design. ⚙️
+#leakybucket
+
+✪ Token Bucket Algorithm:
+1️⃣  More flexible than the leaky bucket for handling bursty traffic. 🪣
+2️⃣  Based on token generation, defines flow transmission orders. 📑
+#tokenbucket
+
+✪ Advantages of Token Bucket over Leaky Bucket:
+1️⃣  Introduces flexibility in packet transmission rate. 🔄
+2️⃣  Tokens generated at regular intervals for more adaptive traffic handling. 🕰️
+#tokenadvantages
+
+✪ Ways Token Bucket is Superior:
+1️⃣  Allows for greater flexibility compared to the conservative nature of the leaky bucket. 🔄
+2️⃣  Generates tokens at intervals, enabling transmissions at varying rates based on availability. 🔄
+#tokenways
+
+✪ Formula for Token Bucket Algorithm:
+1️⃣  S is the time taken. ⏰
+2️⃣  M is the maximum output rate. 📈
+3️⃣  ? is the token arrival rate. ➕
+#tokenformula
+
+✪ Usefulness of Token Bucket Algorithm:
+1️⃣  Combats packet loss by handling bursty traffic more efficiently. 💪
+2️⃣  Offers more flexibility in managing network traffic flow. 🌐
+#tokenusefulness
+
+P.S.  Can't understand network-speak? Let us translate it for you! 🤓
+
+#networkengineering #itmanagement #datatransmission #onlinetroubleshooting
