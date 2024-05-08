@@ -1,0 +1,50 @@
+Ever wondered how those big data packets magically shrink to fit different networks? 🤔
+
+It's all about fragmentation! 📦
+
+✪ Fragmentation Definition and Process:
+1️⃣  Fragmentation is a technique in which gateways break up larger packets into smaller ones called fragments.🔍
+2️⃣  Each fragment is sent as a separate internal packet and has its separate header and trailer.🛠️
+#defination
+
+✪ Reassembly of Fragments:
+1️⃣  Reassembling of fragments is usually done by the destination host because each fragment becomes an independent datagram.🔨
+2️⃣  Datagram can be fragmented several times before reaching the final destination.🔄
+#fragements
+
+✪ Strategies for Recombination:
+→  Transparent Fragmentation:
+1️⃣  One network is made transparent to all other subsequent networks through which the packet will pass.🔗
+2️⃣  Gateway breaks a packet into smaller fragments, and the exit gateway recombines all fragments before passing them to the subsequent network.🔀
+#strategies
+
+→  Non-Transparent Fragmentation:
+1️⃣  One network is non-transparent to the subsequent networks through which a packet passes.🚫
+2️⃣  Fragmented packet is not recombined by the exit gateway of the same network, and recombination of fragments is done at the destination host.🔚
+#fragementation
+
+✪ Advantages and Disadvantages:
+→  Transparent Fragmentation Advantages:
+1️⃣  Subsequent network is not aware that fragmentation has occurred.🌐
+2️⃣ Used by ATM networks.💳
+
+→  Transparent Fragmentation Disadvantages:
+1️⃣  Exit fragment in a network must know when it has received all fragments.⏳
+2️⃣  Adds considerable overhead in repeatedly fragmenting and reassembling large packets.📈
+
+→  Non-Transparent Fragmentation Advantages:
+1️⃣  Can use multiple exit gateways and improve network performance.🚀
+2️⃣  Higher throughput.🚄
+
+→  Non-Transparent Fragmentation Disadvantages:
+1️⃣  Every host has the capability of reassembling fragments.🔧
+2️⃣  Total overhead increases due to fragmentation as each fragment must have its own header.💡
+#advantages
+
+CTA:  Fascinated by the behind-the-scenes of data transmission? Share your thoughts on fragmentation below! 👇
+
+P.S.: Smaller packets, smoother journeys – fragmentation keeps the internet flowing! 🌊
+
+Follow me Jash Hinger🔔 for more such content on LinkedIn ❤️
+
+#networking #datatransmission #IT #networkengineering #internetofthings
