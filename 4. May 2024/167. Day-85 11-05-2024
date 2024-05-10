@@ -1,0 +1,26 @@
+Ever wonder how your message finds its way across the internet? 🤔 It's like having a digital traffic cop and translator all in one!
+
+Let's break down the power players of networking: routers and gateways.
+
+✪ Router:
+1️⃣  Hardware responsible for receiving, analyzing, and forwarding data packets to other networks. 🔄
+2️⃣  Supports dynamic routing. 🛤️
+3️⃣  Main function is to route traffic from one network to another. 🚥
+4️⃣  Operates on layer 3 and layer 4 of the OSI model. 💻
+5️⃣  Installs routing details for multiple networks and routes traffic based on destination address. 📶
+#router
+
+✪ Gateway:
+1️⃣  Device used for communication among networks with different protocols. 📡
+2️⃣  Does not support dynamic routing. 🚫
+3️⃣  Main function is to translate one protocol to another. 🔀
+4️⃣  Operates up to layer 5 of the OSI model. 🧩
+5️⃣  Differentiates what is inside and outside the network. 🧭
+
+CTA:  Ready to dive deeper into the world of networking? Let's connect! 🤝
+
+P.S.:  Sometimes, the most complex systems are the ones we take for granted. 😉
+
+Follow me Jash Hinger🔔 for more such content on LinkedIn ❤️
+
+#gateway #networking #protocols
