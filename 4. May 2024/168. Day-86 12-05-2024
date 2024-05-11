@@ -1,0 +1,43 @@
+Ready to level up your networking game? 📶 Here's your crash course on switching!
+
+✪ Definition:
+1️⃣ Switching is the process of transferring data packets from one device to another in a network using devices called switches. 🔄
+2️⃣ Takes place at the Data Link layer of the OSI Model. 🛠️
+hashtag#Switching
+
+✪ Functionality:
+1️⃣ Network Switch: Dedicated hardware facilitating data packet transfer to their destination. 🖥️
+2️⃣ Works at Data Link layer. 🔗
+3️⃣ Determines data packets' paths using MAC Addresses. 📡
+4️⃣ Maintains a Switching Table for efficient data routing. 📊
+hashtag#Functionality
+
+✪ Process:
+1️⃣ Frame Reception: Receives data packets. 📶
+2️⃣ MAC Address Extraction: Retrieves destination MAC Address. 🕵️
+3️⃣ MAC Address Table Lookup: Matches MAC Address in switching table. 🔍
+4️⃣ Forwarding Decision: Forwards data based on MAC Address. 🚀
+5️⃣ Frame Transition: Sends data to destination port. 📤
+hashtag#Process
+
+✪ Types of Switching:
+1️⃣ Message Switching: Older technique, forwarding entire message across the network making it inefficient. 📫
+2️⃣ Circuit Switching:Establishes a connection beforehand, utilizing complete bandwidth until data transfer completion and more efficient than message switching as data is sent directly to its destination. 🎯
+3️⃣ Packet Switching: Data broken into packets, transferred based on network resources and widely used in modern computers and the Internet. 🌐
+hashtag#Switching
+ 
+✪ Datagram Packet Switching:
+1️⃣ Processes each data frame individually without prior connection establishment. 📄
+2️⃣ Provides flexibility but may result in data loss. 🚫
+hashtag#DatagramPacketSwitching
+
+✪. Virtual-Circuit Packet Switching:
+1️⃣ Establishes logical connections (virtual circuits) before data transmission. 🔄
+2️⃣ Ensures reliable data transfer with reduced data loss. ✅
+hashtag#VirtualCircuitPacketSwitching
+
+CTA : Want to optimize your network? Understanding switching is key! 💡
+
+P.S. Craving more networking knowledge? Hit me up! 💬
+
+hashtag#networking hashtag#dataswitching hashtag#IT hashtag#technology hashtag#networkengineer
