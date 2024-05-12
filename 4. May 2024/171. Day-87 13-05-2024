@@ -1,0 +1,33 @@
+Ever wondered how your internet packets find their way so quickly? 🤔  Let's dive into the world of distance vector routing...
+
+✪ Distance Vector Routing Protocol:
+1️⃣  Uses the Bellman-Ford algorithm to find the shortest path between routers. 🛤️
+2️⃣  Acquires information from neighboring routers to reach destinations. 🔄
+#Distance 
+
+✪ Count to Infinity Problem:
+1️⃣  Occurs due to routing loops where routers send updates simultaneously or if interfaces go down. ⭕
+2️⃣  Leads to looping packets, delays, and network failures. ⏳
+#Count
+
+✪ Route Poisoning:
+1️⃣  Solution to prevent routing loops. 🚫
+2️⃣  Updates broken interface distances to infinity; failed paths are considered poisoned. 🔀
+3️⃣  Stops sending distance vectors to neighbors if a metric value is infinity. ⛔
+#Route Poisoning
+
+✪ Split Horizon:
+1️⃣  Another method to prevent routing loops in distance vector protocols. 🔄
+2️⃣  Ensures routing information is not sent back in the direction from which it was received. 🚷
+#Split Horizon
+
+✪ Conclusion:
+1️⃣  Count to Infinity Problem arises due to routing inefficiencies in Distance Vector Routing. ⚠️
+2️⃣  Methods like Route Poisoning and Split Horizon help mitigate this issue. ✅
+#Conclusion
+
+CTA : Want to learn more about how networks navigate complexity?  Drop a comment below! 👇
+
+P.S.  Ever experienced slowdowns due to routing issues? Share your story! 💬
+
+Follow me Jash Hinger🔔 for more such content on LinkedIn ❤️
