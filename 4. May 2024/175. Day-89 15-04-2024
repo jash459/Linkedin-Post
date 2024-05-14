@@ -1,0 +1,57 @@
+Ever feel like your Kubernetes controllers are juggling too many tasks? 🤹‍♀️
+
+Let's streamline those controllers for efficiency and ease of management!
+
+✪ Handle Resources Marked for Deletion:
+
+1️⃣  DeletionTimestamp indicates when a resource will be deleted; handling this properly is crucial. 👌
+2️⃣  Use IsZero() method or check for nil to handle deletion appropriately. 💡
+#DeletionManagement
+
+✪ Filter Reconciliation Triggering Events:
+
+1️⃣  Controllers reconcile resource states based on events triggered by spec or status changes. 🔄
+2️⃣  Event filters with predicates help in screening out specific events to optimize reconciliation. 🕵️‍♂️
+#EventFiltering
+
+✪ Bind Resources Through Ownership:
+
+1️⃣  Connect parent and child objects in Kubernetes by setting owner references. 🔗
+2️⃣  Ensure parent-child relationships to manage resources efficiently and avoid resource build-up. 🏗️
+#ResourceBinding
+
+✪ Check for 3rd Party Resource Definitions:
+
+1️⃣  Verify the presence of necessary components (e.g., Prometheus) for a controller's functionality. ✔️
+2️⃣  Use the provided APIs to check for Custom Resource Definitions like ServiceMonitors. 📋
+#ResourceVerification
+
+✪ Record Events:
+
+1️⃣  Utilize EventRecorder to log Kubernetes events triggered by object changes in a cluster. 📝
+2️⃣  Customize event recording based on controller functionality needs. 🎚️
+#EventRecording
+
+✪ Get Kubernetes Clientset Instance:
+
+1️⃣  Create a Kubernetes Clientset instance by first obtaining a *rest.Config and using it to initialize the clientset. 🛠️
+#ClientInitialization
+
+✪ Check if You're Running on Openshift:
+
+1️⃣  Use the discovery package to detect specific API groups (e.g., route.openshift.io) to ascertain if running on OpenShift. 🚦
+#PlatformDetection
+
+✪ Create Objects from Templates:
+
+1️⃣  Create Kubernetes objects using manifest templates with placeholders for dynamic data injection. 📄
+2️⃣  Read templates, fill placeholders, and deserialize YAML templates to create Kubernetes objects effectively. 🔄
+#ObjectCreation
+
+CTA: Ready to optimize your Kubernetes controllers?  Let's talk strategies in the comments! 👇
+
+P.S.  Ever had a controller go rogue? Share your wildest Kubernetes controller story! 🤖💥
+
+Follow me Jash Hinger🔔 for more such content on LinkedIn ❤️
+
+#Kubernetes #controllers #devops
