@@ -1,0 +1,29 @@
+Ever wondered how your computer says "hello" to a website? 🤔 It's not magic, it's the TCP 3-Way Handshake! 🤝
+
+I recently deepened my networking knowledge, and this connection process fascinates me. 
+
+Here's the breakdown:
+
+→ Step 1 (SYN):
+1️⃣  Client initiates the connection by sending a segment with SYN (Synchronize Sequence Number) to the server. 🚀
+2️⃣  Indicates the client's intention to start communication and the sequence number it will use for segments. 🔒
+3️⃣  The client includes other TCP control information, such as window size and maximum segment size, in the segment. 💡
+#tcp
+
+→ Step 2 (SYN + ACK):
+1️⃣  Server responds to the client with SYN-ACK signal bits set. 🔄
+2️⃣  The ACK signifies the acknowledgment of the segment received, and SYN indicates the sequence number the server will use for segments. 📡
+3️⃣  The server also includes TCP control information in the response, like window size and maximum segment size. 📈
+#handshake
+
+→ Step 3 (ACK):
+1️⃣  The client acknowledges the server's response, establishing a reliable connection for actual data transfer. ✅
+2️⃣  Once the connection is established, both client and server can start sending data segments using the sequence numbers established during the handshake. 📩
+3️⃣  TCP uses the acknowledgment mechanism to ensure reliable data transfer, retransmitting any unacknowledged segments. 🔄
+#steps
+
+CTA:  Amazed by how much happens before you even see a webpage? Drop a comment with networking processes that intrigue you! 🧠
+
+PS:  The TCP 3-Way Handshake is the foundation of reliable internet connections –  it's like the polite introduction before the real conversation begins. 😉
+
+Follow me Jash Hinger🔔 for more such content on LinkedIn ❤️
