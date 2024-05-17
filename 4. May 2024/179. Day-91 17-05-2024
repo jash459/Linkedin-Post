@@ -1,0 +1,59 @@
+Ever wondered how an ATM actually knows what to do? 🤔
+
+The answer lies in something called a State Transition Diagram!
+
+✪ State Transition Diagram for ATM System
+
+1️⃣  Represents different transition states of the ATM system 🔀
+2️⃣  Graphically represents all possible transition states 🔍
+3️⃣  Utilized for object-oriented modeling 💻
+4️⃣  Symbols and their descriptions include Initial State, Final State, Simple State, and Composite State 🌀 
+#ATMStateTransition
+
+✪ ATM State Transition Diagram States and Processes
+
+1️⃣  Process of customer performing transactions using ATM card 💳
+2️⃣  Entry action of reading the card 📖
+3️⃣  Validation of the card and entry of PIN 🔒
+4️⃣  Transaction processing and card ejection after a successful transaction ✅ 
+#TransactionCompletion
+
+✪ Importance of State Transition Diagram
+
+1️⃣  Essential for object-oriented modeling 💡
+2️⃣  Clearly represents different states and transitions 🔄
+3️⃣  Used in system design and software engineering 🛠️ 
+#SystemDesign
+
+✪ Use Case Diagram for Bank ATM System
+
+1️⃣  Illustrates the different use cases of an ATM system 🔄
+2️⃣  Depicts interactions between the ATM and various actors such as the bank customer and the bank itself 🏦
+#UseCaseDiagram
+
+✪ Data Flow Diagram for Online Banking System
+
+1️⃣  Represents the flow of data and processes in an online banking system 📊
+2️⃣  Shows how information flows within the online banking system, from user input to database storage and processing 💻
+#dataflow
+
+✪ Software Engineering Tutorial
+
+1️⃣  Provides comprehensive guidance on software engineering principles and practices 📘
+2️⃣  Covers topics such as software development life cycle, requirements, design, testing, and maintenance 🛠️ #SoftwareEngineeringPrinciples
+#software 
+
+✪ Agile Methodology
+
+1️⃣  Iterative and flexible approach to software development 🔄
+2️⃣  Emphasizes collaboration, customer feedback, and continuous improvement 🚀
+3️⃣  Comprises various practices such as Scrum, Kanban, and Lean methodologies 📈
+#agile
+
+CTA:  Want to learn more about how software gets built?  Drop a comment below! 👇
+
+P.S.: Turns out, ATMs have a lot more going on under the hood than I thought!🤯
+
+Follow me Jash Hinger🔔 for more such content on LinkedIn ❤️
+
+#softwareengineering #coding #systemsdesign #fintech #userexperience
