@@ -1,0 +1,39 @@
+Just wrapped up an insightful camp on congestion control? 🤯 Let me break down what I learned and why it matters for network performance! 👇
+
+Open Loop Congestion Control: Prevention is Key 🗝️
+
+✪ Open Loop Congestion Control
+1️⃣  Handling of lost or corrupted packets: Implementing strategies to detect and retransmit lost or corrupted packets, ensuring data integrity. 🔍
+2️⃣  Designing retransmission timers: Setting timers for retransmission based on network conditions to minimize delays and improve efficiency. ⏲️
+3️⃣  Optimization of efficiency: Continuously optimizing the congestion control algorithms to improve network performance and reduce latency. 🔄
+#Open Loop
+
+✪ Discarding Policy
+1️⃣  Partial discarding of corrupted or less sensitive packets: Identifying and discarding packets that are corrupted or less critical to maintain overall message integrity. 📦
+2️⃣  Maintenance of message quality: Ensuring that discarding policies do not compromise the quality or integrity of the transmitted message. 👨‍💻
+#DiscardingPolicy
+
+✪ Acknowledgment Policy
+1️⃣  Impact of acknowledgments on network load: Evaluating the impact of acknowledgment messages on network resources and optimizing their usage. 📶
+2️⃣  Approaches to prevent congestion related to acknowledgments: Implementing strategies to minimize the impact of acknowledgment messages on network congestion. 🚫
+#Policy
+
+✪ Admission Policy
+1️⃣  Mechanism to prevent congestion: Implementing admission control mechanisms to limit the number of concurrent transmissions and prevent congestion. 🚦
+2️⃣  Checking resource requirements before transmitting: Verifying the availability of resources before allowing a new transmission to prevent congestion. ✅
+#Policy
+
+✪ Closed Loop Congestion Control
+1️⃣  Backpressure: Nodes experiencing congestion signal back to the sender to reduce the rate of packet transmission, alleviating congestion. ⏮️
+2️⃣  Propagation of congestion: Congestion information is propagated back through the network, affecting nodes in the opposite direction of the data flow. 🔄
+3️⃣  Choke Packet Technique: Sending choke packets to inform the source of congestion and adjust its transmission rate accordingly. 🚥
+4️⃣  Monitoring resource utilization: Constantly monitoring resource usage and providing feedback to nodes to reduce unnecessary traffic. 📊
+5️⃣  Implicit Signaling: Predicting congestion based on lack of acknowledgments and adjusting transmission rates accordingly without explicit communication with congested nodes. 🤝
+6️⃣  Explicit Signaling: Sending explicit packets to inform about congestion, using forward and backward signaling to manage congestion effectively. 📡
+#ClosedLoop
+
+P.S.  Network congestion doesn't have to be a mystery! Understanding these concepts can help you create smoother, more efficient network experiences.
+
+Feel free to share your thoughts and experiences in the comments below! 👇
+
+#NetworkEngineering #Tech #Learning

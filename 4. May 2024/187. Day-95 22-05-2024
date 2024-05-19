@@ -1,0 +1,62 @@
+Ready to take your Kubernetes game to the next level?  Let's dive into the power of extensibility! 🚀
+
+I recently attended an awesome camp on Kubernetes extensibility and wanted to share some of the key takeaways...
+
+✪ Extensibility in Kubernetes:
+
+1️⃣  Vital for customizing business needs without modifying upstream source code 🔄
+2️⃣  Allows developers to contribute back to upstream 🤝
+3️⃣  Various extension mechanisms available in Kubernetes 🧩
+#kubernetes
+
+✪ Ways to Extend Kubernetes Scheduler:
+ 
+→  Clone and Modify Upstream Source:
+1️⃣  Not recommended due to difficulties in aligning with upstream changes 🚫
+→  Run Separate Scheduler:
+1️⃣  Co-existence of multiple schedulers can lead to issues ❗
+2️⃣  Requires in-depth knowledge of Kubernetes architecture 🧠
+→  Scheduler Extender:
+1️⃣  Configurable webhooks for filtering and prioritizing 🔗
+2️⃣  Compatible with upstream scheduler 👍
+→  Scheduler Framework:
+1️⃣  Comprehensive solution for extending scheduler 🛠️
+2️⃣  Official recommended way to extend scheduling 🏅
+#ways
+
+✪ Functioning of Scheduler Extender:
+
+→  Startup Parameters:
+1️⃣  Config file specifying scheduler parameters, including extender configurations 📄
+→  Extender Workflow:
+1️⃣  Webhooks for filtering and prioritizing in scheduling cycle 🔄
+#functioning
+
+✪ Implementation Details:
+
+1️⃣  Writing HTTP service as scheduler extender 📝
+2️⃣  Developing custom filtering and prioritizing logic 💡
+3️⃣  Running example Deployment to showcase extender functionality 🚀
+#implementation
+
+✪ Limitations of Scheduler Extender:
+
+1️⃣  Communication costs with HTTP(s) data transfer 🌐
+2️⃣  Limited extension points (Filter and Prioritize phases) ⚠️
+3️⃣  Preferable for further filtering rather than adding new nodes 🆕
+4️⃣  Challenges with cache sharing and maintaining cluster status 🔄
+#limitations
+
+✪ Future Developments:
+
+1️⃣  Introduction of Scheduler Framework to address extender limitations 🔜
+2️⃣  Scheduled for beta/GA release date 📅
+3️⃣  Recommended for advanced scheduling extensions 🔝
+4️⃣  Ongoing updates in Kubernetes ecosystem for enhanced extensibility 🔄.
+#developments
+
+PS:  The Scheduler Extender has limits, but the upcoming Scheduler Framework is gonna blow those away!  Keep an eye on those Kubernetes updates 👀
+
+Follow me Jash Hinger🔔 for more such content on LinkedIn ❤️
+
+#kubernetes #extensibility #scheduler #customization #cloudnative #devops #opensource

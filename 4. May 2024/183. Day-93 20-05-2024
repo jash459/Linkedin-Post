@@ -1,0 +1,43 @@
+Ever wondered how to extend Kubernetes beyond its built-in capabilities? 🤔 
+
+Well, the answer lies in Custom Resource Definitions (CRDs)! 🚀
+
+✪ What are CRDs?
+1️⃣  CRDs allow the creation of custom API objects and define new types, extending Kubernetes' capabilities beyond built-in resources like Pods and Deployments. 🔄
+2️⃣  They enable the incorporation of any API object useful for applications. 🔧
+#customobjects
+
+✪ Why CRDs?
+1️⃣  CRDs extend the Kubernetes API and provide the ability to manage more than just containers. 🚀
+2️⃣  When used with Kubernetes operators, CRDs offer nearly limitless possibilities to manage various components of infrastructure. 💡
+#managecomponents
+
+✪ How to create a CRD?
+1️⃣  Use the Kubernetes API Server to create a new RESTful resource path for each specified version when creating a new CRD. 🛠️
+2️⃣  A manifest file defines the CRD, and it needs to be applied using 'kubectl apply -f' command. 📋 
+#applymanifest
+
+✪ Create custom objects
+1️⃣  Custom objects can be created after the CustomResourceDefinition object has been created using a manifest file. 🌐
+2️⃣  Custom fields can be added to custom objects, and these fields may contain any JSON. 💬 
+#customfields
+
+✪ How to delete a CRD?
+1️⃣  Removing a CustomResourceDefinition removes the RESTful API endpoint and all custom objects stored in it. ❌ 
+#deleteCRD
+
+✪ CRD vs ConfigMap
+1️⃣  CRDs serve to create specialized automation and expand the Kubernetes API, while ConfigMaps are intended for configuring pods. 🔄 
+#specializedautomation
+
+✪ Conclusion
+1️⃣  CRDs offer flexibility in creating custom Kubernetes objects, opening up numerous possibilities for usage. 🌟 
+#flexibleobjects
+
+CTA : Ready to take the next step? Dive deeper into the world of CRDs and Kubernetes operators.
+
+P.S. If you're already using CRDs, share your favorite use cases in the comments below! 👇
+
+Follow me Jash Hinger🔔 for more such content on LinkedIn ❤️
+
+#KubernetesCommunity #Kubernetes #CRDs #CustomResourceDefinitions #DevOps #CloudNative
