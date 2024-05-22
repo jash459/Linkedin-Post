@@ -1,0 +1,49 @@
+DNS: The Internet's Phonebook – How Does It Work? 🤔🔍
+
+Ever wondered how your browser finds websites when you type in a name? It's all thanks to DNS! Let's unravel this internet magic together.✨
+
+Here's the step-by-step journey:
+
+✪ Steps in a DNS Lookup:
+
+1️⃣  User types the domain name into a web browser. 🌐
+2️⃣  Query reaches a DNS recursive resolver. 🔄
+3️⃣  Resolver queries a DNS root nameserver. 🌍
+4️⃣  Root server directs the resolver to a Top Level Domain (TLD) server. 🌐
+5️⃣  Resolver requests information from the TLD server. 📄
+6️⃣  TLD server provides the IP address of the domain's nameserver. 🏢
+7️⃣  Resolver queries the domain's nameserver. 💻
+8️⃣  Nameserver returns the IP address to the resolver. 📲
+#steps
+
+✪ DNS Resolver:
+
+1️⃣  Acts as the first point in DNS lookup. 🔍
+2️⃣  Handles the client request and initiates DNS queries. 📡
+3️⃣  Manages both recursive and iterative queries for DNS resolution. 🔄
+#DNS
+
+✪ Types of DNS Queries:
+
+1️⃣  Recursive Query: Client requests a DNS server (resolver) to respond with a resource record or an error message. 📨
+2️⃣  Iterative Query: DNS server returns the best answer; if no match, it provides a referral to an authoritative server. 🔗
+3️⃣  Non-Recursive Query: Query for a record already cached or in the authoritative server's records, reducing bandwidth and load. 📉
+#typeofdns
+
+✪ DNS Caching and Locations:
+
+→  Purpose: Temporarily store data for performance and reliability improvement. ⚡
+→  Browser DNS Caching:
+1️⃣  Modern browsers cache DNS for quicker resolution. 🌐
+2️⃣  DNS cache in browsers checked first for requested records. 🔍
+→  Operating System Level DNS Caching:
+1️⃣  Stub resolver on the OS level. 🖥️
+2️⃣  Queries local cache before reaching ISP's DNS recursive resolver. 📡
+3️⃣  Recursive resolver checks local cache and queries authoritative nameservers. 🌍
+#dns
+
+CTA : Want to learn more about DNS and how it powers the internet? Join the conversation and share your insights below! 👇
+
+P.S.  DNS issues can cause websites to not load. Understanding how DNS works helps you troubleshoot these problems! 🔧
+
+#DNS #InternetMagic #HowItWorks
