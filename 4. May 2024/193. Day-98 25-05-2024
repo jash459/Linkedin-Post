@@ -1,0 +1,70 @@
+Kubernetes enthusiasts, ever found yourself tangled in the complex web of deploying extension API servers? 🕸️ 
+
+Let's untangle this together and streamline your Kubernetes experience! 🚀
+
+✪ Ensure APIService API is Enabled:
+1️⃣  Check --runtime-config for APIService API enablement. 🛠️
+2️⃣  Should be on by default; can be manually enabled if necessary. 🔄  
+#APIService
+
+✪ Implement RBAC Rules:
+1️⃣  Create an RBAC rule for adding APIService objects. 📝
+2️⃣  Obtain permissions from the cluster administrator if needed. 🛡️  
+#RBAC
+
+✪ Namespace Configuration:
+1️⃣  Create the Kubernetes namespace for the extension API service deployment. 📂  
+#NamespaceConfiguration
+
+✪ Certificate Management:
+1️⃣  Obtain a CA cert for signing the server cert. 🔏
+2️⃣  Generate a server cert/key for HTTPS, signed by the CA. 🔐
+3️⃣  Ensure the server cert has the correct CN derived from the Kubernetes service. 🛡️  
+#CertificateManagement
+
+✪ Secret Management:
+1️⃣  Create a Kubernetes secret containing the server cert/key. 🗝️  
+#SecretManagement
+
+✪ Deployment Setup:
+1️⃣  Create a Kubernetes deployment for the extension API server, loading the secret as a volume. 📦
+2️⃣  Reference a working image for the extension API server. 🖼️  
+#DeploymentSetup
+
+✪ TLS Configuration:
+1️⃣  Verify that the API server loads the certs from the volume and uses them in the HTTPS handshake. 🤝  
+#TLSConfiguration
+
+✪ Service Account Creation:
+1️⃣  Create a Kubernetes service account in the target namespace. 🧑‍💻  
+#ServiceAccount
+
+✪ Cluster Role Configuration:
+1️⃣  Define a Kubernetes cluster role for the desired resource operations. 📜  
+#ClusterRole
+
+✪ Role Binding and Auth Delegation:
+1️⃣  Create cluster role bindings between the service account and the defined cluster roles. 🔗
+2️⃣  Establish a role binding for auth delegation to system:auth-delegator. 🛡️  
+#RoleBinding
+
+✪ Authentication Configuration:
+1️⃣  Create a role binding for the service account to access extension-apiserver-authentication configmap. 🔑  
+#Authentication
+
+✪ APIService Creation:
+1️⃣  Create a Kubernetes APIService with the base64-encoded CA cert for spec.caBundle. 🏷️
+2️⃣  Ensure the API aggregation with kube-aggregator API uses PEM-encoded CA bundle. 📦  
+#APIServiceCreation
+
+✪ Validation and Testing:
+1️⃣  Verify setup by using kubectl to check for the new resource. ✔️  
+#ValidationTesting
+
+CTA: Eager to elevate your Kubernetes game? Dive deeper into extension API server deployment with our expert resources. Let's conquer Kubernetes complexity together! 💪
+
+PS: Share your Kubernetes deployment triumphs and challenges below. Let's foster a community of learning and collaboration! 🤝
+
+Follow me Jash Hinger🔔 for more such content on LinkedIn ❤️
+
+#Kubernetes #APIserver #Deployment #DevOps #CloudNative
